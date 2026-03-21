@@ -1,10 +1,11 @@
-import { access, readdir, readFile, writeFile } from "node:fs/promises";
+import { access, mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import matter from "gray-matter";
 
 const repoRoot = process.cwd();
 const outputFile = path.join(repoRoot, "site", "src", "generated", "tasks.ts");
 const disclosureOutputFile = path.join(repoRoot, "site", "src", "generated", "public-scope.ts");
+const generatedDir = path.dirname(outputFile);
 
 async function directoryExists(directory: string): Promise<boolean> {
   try {
@@ -280,6 +281,7 @@ export const publicScopeDisclosure: PublicScopeDisclosure = ${JSON.stringify(
 )};
 `;
 
+await mkdir(generatedDir, { recursive: true });
 await writeFile(outputFile, source, "utf8");
 await writeFile(disclosureOutputFile, disclosureSource, "utf8");
 console.log(`Generated ${tasks.length} public tasks into ${path.relative(repoRoot, outputFile)}`);
