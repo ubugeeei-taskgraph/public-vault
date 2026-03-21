@@ -111,6 +111,7 @@ function normalizeTask(filePath: string, raw: string) {
     visibility: asScalarString(data.visibility ?? "public"),
     portfolio: asScalarString(data.portfolio ?? "personal-oss"),
     surface: asScalarString(data.surface ?? "repository"),
+    repositoryUrl: asScalarString(data.repository_url) || null,
     discipline: asScalarString(data.discipline ?? "engineering"),
     stream: asScalarString(data.stream ?? "delivery"),
     urgency: Number(data.urgency ?? 3),

@@ -11,6 +11,7 @@ status: active
 visibility: public
 portfolio: research
 surface: repository
+repository_url: https://github.com/ubugeeei/vapor-moon
 discipline: engineering
 stream: exploration
 urgency: 2
@@ -39,7 +40,7 @@ tags:
   - area/moonbit
   - area/vapor
   - repo/vapor-moon
-updated: '2026-03-21'
+updated: '2026-03-22'
 ---
 # Build the vapor-moon Vue SFC Vapor-like compiler
 
@@ -53,6 +54,7 @@ This is intentionally ambitious, so the value is not only in getting code to run
 
 ## Links
 
+- [vapor-moon repository](https://github.com/ubugeeei/vapor-moon)
 - [Advance the MoonBit JSX-like story](./moonbit--advance-jsx-like-story.md)
 - [Drive Vapor toward stability](./vuejs-core-team--drive-vapor-stability.md)
 - [Build an mbtx sample](./mbtx--build-sample.md)

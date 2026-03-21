@@ -39,7 +39,7 @@ tags:
   - area/moonbit
   - area/jsx-like
   - research/language-design
-updated: '2026-03-21'
+updated: '2026-03-22'
 ---
 # Advance the MoonBit JSX-like story
 
@@ -56,4 +56,5 @@ This should stay grounded in the real MoonBit model from the specification work,
 - [Research the MoonBit language specification](./moonbit--research-language-specification.md)
 - [Build an mbtx sample](./mbtx--build-sample.md)
 - [Build the vapor-moon Vue SFC Vapor-like compiler](./vapor-moon--build-vue-sfc-vapor-like-compiler.md)
+- [vapor-moon repository](https://github.com/ubugeeei/vapor-moon)
 - [Public initiative map](../90-index/initiative-map.md)

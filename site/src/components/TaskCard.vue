@@ -60,10 +60,22 @@ defineProps<{
 
     <footer class="task-card__footer">
       <span class="task-card__path">{{ task.path }}</span>
-      <span class="task-card__links">
-        <UiIcon :path="mdiLinkVariant" :size="16" />
-        {{ task.children.length }} children
-      </span>
+      <div class="task-card__footer-actions">
+        <a
+          v-if="task.repositoryUrl"
+          class="task-card__repo-link"
+          :href="task.repositoryUrl"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <UiIcon :path="mdiLinkVariant" :size="16" />
+          Repository
+        </a>
+        <span class="task-card__links">
+          <UiIcon :path="mdiLinkVariant" :size="16" />
+          {{ task.children.length }} children
+        </span>
+      </div>
     </footer>
   </article>
 </template>
