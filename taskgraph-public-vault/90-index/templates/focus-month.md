@@ -1,0 +1,171 @@
+---
+note_type: focus-month
+id: focus.month.2026-03
+title: Monthly focus for 2026-03
+month: 2026-03
+visibility: public
+updated: 2026-03-21
+---
+# Monthly focus for 2026-03
+
+Keep the monthly page broad and editorial. The source of truth stays in each task note through the `focus` property.
+
+```dataviewjs
+const pages = dv.pages('"10-tasks"').where((page) => page.note_type === "task" && page.status !== "done" && page.review_month === dv.current().month).array();
+const monthly = pages.filter((page) => Array.isArray(page.focus) && page.focus.includes("monthly"));
+const pressure = pages.filter((page) => (page.blockers?.length ?? 0) > 0 || page.uncertainty >= 4);
+const fronts = monthly.filter((page) => !page.parent);
+const agentic = monthly.filter((page) => page.agenty >= 4);
+const score = (page) => page.importance * 3 + page.urgency * 2 + page.agenty - page.uncertainty + page.progress / 25;
+const byScore = (items) => [...items].sort((left, right) => score(right) - score(left));
+const averageProgress = monthly.length === 0 ? 0 : Math.round(monthly.reduce((sum, page) => sum + page.progress, 0) / monthly.length);
+const strip = dv.container.createDiv({ cls: "tg-metric-strip" });
+for (const [label, value, icon] of [
+  ["Monthly tasks", monthly.length, "monthly"],
+  ["Average progress", `${averageProgress}%`, "tasks"],
+  ["Pressure points", pressure.length, "pressure"],
+  ["Top-level fronts", pages.filter((page) => !page.parent).length, "graph"],
+]) {
+  const card = strip.createDiv({ cls: "tg-metric" });
+  card.dataset.icon = icon;
+  card.createDiv({ text: String(value), cls: "tg-metric__value" });
+  card.createDiv({ text: label, cls: "tg-metric__label" });
+}
+
+const dashboard = dv.container.createDiv({ cls: "tg-dashboard" });
+const board = dashboard.createDiv({ cls: "tg-panel-grid" });
+
+const formatDate = (value) => {
+  if (!value) {
+    return "";
+  }
+
+  if (value instanceof Date) {
+    return value.toISOString().slice(0, 10);
+  }
+
+  const directMatch = String(value).match(/\d{4}-\d{2}-\d{2}/);
+  return directMatch ? directMatch[0] : String(value);
+};
+
+const renderChip = (parent, text, tone = "") => {
+  const chip = parent.createDiv({ cls: `tg-chip${tone ? ` tg-chip--${tone}` : ""}` });
+  chip.setText(text);
+};
+
+const renderTaskCard = (parent, page) => {
+  const card = parent.createDiv({ cls: "tg-note-card" });
+  card.tabIndex = 0;
+  card.addEventListener("click", () => app.workspace.openLinkText(page.file.path, "", false));
+  card.addEventListener("keydown", (event) => {
+    if (event.key === "Enter" || event.key === " ") {
+      event.preventDefault();
+      app.workspace.openLinkText(page.file.path, "", false);
+    }
+  });
+  card.createDiv({ text: page.title, cls: "tg-note-card__title" });
+  card.createDiv({ text: page.content, cls: "tg-note-card__summary" });
+  const meta = card.createDiv({ cls: "tg-note-card__meta" });
+  renderChip(meta, page.stream);
+  renderChip(meta, `${page.progress}%`, "strong");
+  renderChip(meta, `agenty ${page.agenty}`);
+  if (page.due_date) {
+    renderChip(meta, formatDate(page.due_date), "muted");
+  }
+  if ((page.blockers?.length ?? 0) > 0) {
+    renderChip(meta, `${page.blockers.length} blocker${page.blockers.length > 1 ? "s" : ""}`, "muted");
+  }
+};
+
+const renderPanel = ({ eyebrow, title, icon, span, items, emptyText }) => {
+  const panel = board.createDiv({ cls: "tg-panel" });
+  panel.dataset.icon = icon;
+  panel.dataset.span = span;
+  panel.createDiv({ text: eyebrow, cls: "tg-panel__eyebrow" });
+  panel.createDiv({ text: title, cls: "tg-panel__title" });
+  const body = panel.createDiv({ cls: "tg-panel__body" });
+  if (items.length === 0) {
+    body.createDiv({ text: emptyText, cls: "tg-empty" });
+    return;
+  }
+  for (const item of items.slice(0, span === "8" ? 6 : 4)) {
+    renderTaskCard(body, item);
+  }
+};
+
+renderPanel({
+  eyebrow: "Direction",
+  title: "Monthly fronts",
+  icon: "monthly",
+  span: "8",
+  items: byScore(fronts.length > 0 ? fronts : monthly),
+  emptyText: "No monthly fronts are marked right now."
+});
+
+renderPanel({
+  eyebrow: "Leverage",
+  title: "Agentic lanes",
+  icon: "agentic",
+  span: "4",
+  items: byScore(agentic),
+  emptyText: "No strongly delegatable monthly tasks stand out."
+});
+
+renderPanel({
+  eyebrow: "Risk",
+  title: "Pressure points",
+  icon: "pressure",
+  span: "4",
+  items: byScore(pressure),
+  emptyText: "No blocker-heavy or uncertain monthly tasks stand out."
+});
+
+const roomsPanel = board.createDiv({ cls: "tg-panel" });
+roomsPanel.dataset.icon = "reading";
+roomsPanel.dataset.span = "4";
+roomsPanel.createDiv({ text: "Rooms", cls: "tg-panel__eyebrow" });
+roomsPanel.createDiv({ text: "Review rooms", cls: "tg-panel__title" });
+const roomsBody = roomsPanel.createDiv({ cls: "tg-link-list" });
+for (const [label, target] of [
+  ["Public home", "90-index/home"],
+  ["Initiative map", "90-index/initiative-map"],
+  ["Public scope disclosure", "90-index/public-scope-disclosure"],
+]) {
+  const item = roomsBody.createDiv({ cls: "tg-link-item" });
+  item.tabIndex = 0;
+  item.setText(label);
+  item.addEventListener("click", () => app.workspace.openLinkText(target, "", false));
+  item.addEventListener("keydown", (event) => {
+    if (event.key === "Enter" || event.key === " ") {
+      event.preventDefault();
+      app.workspace.openLinkText(target, "", false);
+    }
+  });
+}
+```
+
+## Selected tasks
+
+```dataview
+TABLE WITHOUT ID
+file.link AS Task,
+portfolio AS Portfolio,
+stream AS Stream,
+progress + "%" AS Progress
+FROM "10-tasks"
+WHERE note_type = "task" AND status != "done" AND review_month = this.month AND contains(focus, "monthly")
+SORT importance DESC, urgency DESC, progress DESC
+```
+
+## Pressure points
+
+```dataview
+TABLE WITHOUT ID
+file.link AS Task,
+length(blockers) AS Blockers,
+uncertainty AS Uncertainty,
+agenty AS Agenty
+FROM "10-tasks"
+WHERE note_type = "task" AND status != "done" AND review_month = this.month AND (length(blockers) > 0 OR uncertainty >= 4)
+SORT length(blockers) DESC, uncertainty DESC, importance DESC
+```

@@ -1,0 +1,29 @@
+{
+  "name": "public-vault",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate:tasks": "node scripts/generate-task-data.ts",
+    "dev": "vp run generate:tasks && vp dev",
+    "build": "vp run generate:tasks && vp exec vue-tsc --noEmit -p tsconfig.json && vp build",
+    "preview": "vp preview",
+    "test": "vp run generate:tasks && vp test run",
+    "format": "vp exec prettier --write \"taskgraph-public-vault/**/*.md\" \"site/**/*.{ts,vue,css,html}\" \"scripts/**/*.ts\""
+  },
+  "dependencies": {
+    "@mdi/js": "^7.4.47",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.14",
+    "@vitejs/plugin-vue": "^6.0.5",
+    "gray-matter": "^4.0.3",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2",
+    "vite": "npm:@voidzero-dev/vite-plus-core@0.1.13",
+    "vite-plus": "^0.1.13",
+    "vitest": "npm:@voidzero-dev/vite-plus-test@0.1.13",
+    "vue-tsc": "^3.2.6"
+  },
+  "packageManager": "pnpm@10.32.1"
+}

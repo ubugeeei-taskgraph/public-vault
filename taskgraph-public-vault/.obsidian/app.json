@@ -1,0 +1,11 @@
+{
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "90-index/assets",
+  "newFileLocation": "current",
+  "newLinkFormat": "relative",
+  "promptDelete": false,
+  "readableLineLength": true,
+  "showInlineTitle": true,
+  "strictLineBreaks": false,
+  "useMarkdownLinks": true
+}

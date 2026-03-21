@@ -1,0 +1,11 @@
+{
+  "classFilesPath": "90-index/fileclasses/",
+  "fileClassAlias": "fileClass",
+  "tableViewMaxRecords": 50,
+  "autoInsertFieldsAtFileClassInsertion": true,
+  "showFileClassSelectInModal": true,
+  "enableProperties": true,
+  "enableLinks": true,
+  "enableTabHeader": true,
+  "enableEditor": true
+}
