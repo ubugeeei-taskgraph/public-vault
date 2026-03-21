@@ -18,3 +18,5 @@ At the moment, it represents about **X%** of the overall task landscape.
 Work-related tasks are managed in a separate system and are intentionally excluded from this vault.
 
 Private work is either tracked in `private-vault` or summarized here without exposing sensitive implementation details.
+
+This repository also serves as the public request surface. When someone outside the organization opens a pull request against `public-vault`, that pull request is treated as a practical task request against the public graph.

@@ -2,6 +2,8 @@
 
 `public-vault` contains the public Obsidian vault and the static site that will be published with GitHub Pages.
 
+It is the public-facing slice of `@ubugeeei`'s task management system, and it is also the public request surface. In practice, an outside contributor can make a substantive task request by opening a pull request against this repository.
+
 ## Responsibilities
 
 - store every public task as a Markdown file
@@ -9,6 +11,7 @@
 - preserve graph edges through task IDs
 - keep weekly and monthly focus visible in notes
 - state clearly that this repository is only the public subset of the broader task landscape
+- make it possible for outsiders to request work through pull requests
 - generate a public dashboard from the vault contents
 
 ## Layout
