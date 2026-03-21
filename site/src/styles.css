@@ -384,6 +384,14 @@ select {
   justify-content: flex-end;
 }
 
+.task-card__repo-links {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
 .task-card__path {
   color: var(--muted);
   font-family: "IBM Plex Mono", monospace;

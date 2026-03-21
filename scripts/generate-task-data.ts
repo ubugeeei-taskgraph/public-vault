@@ -49,6 +49,21 @@ async function walk(directory: string): Promise<string[]> {
   return files.flat();
 }
 
+const repositoryTagUrlByTag = new Map<string, string>([
+  ["repo/ubugeeei-vize", "https://github.com/ubugeeei/vize"],
+  ["repo/ubugeeei-ox-content", "https://github.com/ubugeeei/ox-content"],
+  ["repo/ubugeeei-fwgl", "https://github.com/ubugeeei/fwgl"],
+  ["repo/ubugeeei-pkg-pkl", "https://github.com/ubugeeei/pkg-pkl"],
+  ["repo/ubugeeei-npnpm", "https://github.com/ubugeeei/npnpm"],
+  ["repo/ubugeeei-ide", "https://github.com/ubugeeei/ide"],
+  ["repo/vapor-moon", "https://github.com/ubugeeei/vapor-moon"],
+  ["repo/mbtx", "https://github.com/ubugeeei/mbtx"],
+  ["repo/chibinuxt", "https://github.com/ubugeeei/chibinuxt"],
+  ["repo/chibivue", "https://github.com/ubugeeei/chibivue"],
+  ["repo/chibivue-land", "https://github.com/ubugeeei/chibivue-land"],
+  ["repo/chibivitest", "https://github.com/ubugeeei/chibivitest"],
+]);
+
 function normalizeList(value: unknown): string[] {
   return Array.isArray(value) ? value.map((item) => asScalarString(item)).filter(Boolean) : [];
 }
@@ -94,6 +109,19 @@ function normalizeDate(value: unknown): string {
   return Number.isNaN(parsed.getTime()) ? stringValue : parsed.toISOString().slice(0, 10);
 }
 
+function normalizeRepositoryUrls(data: Record<string, unknown>): string[] {
+  const directUrl = asScalarString(data.repository_url);
+  const explicitUrls = [
+    ...normalizeList(data.repository_urls),
+    ...(directUrl ? [directUrl] : []),
+  ];
+  const tagUrls = normalizeList(data.tags)
+    .map((tag) => repositoryTagUrlByTag.get(tag))
+    .filter((url): url is string => Boolean(url));
+
+  return [...new Set([...explicitUrls, ...tagUrls])];
+}
+
 function normalizeTask(filePath: string, raw: string) {
   const { data, content } = matter(raw);
 
@@ -111,7 +139,7 @@ function normalizeTask(filePath: string, raw: string) {
     visibility: asScalarString(data.visibility ?? "public"),
     portfolio: asScalarString(data.portfolio ?? "personal-oss"),
     surface: asScalarString(data.surface ?? "repository"),
-    repositoryUrl: asScalarString(data.repository_url) || null,
+    repositoryUrls: normalizeRepositoryUrls(data),
     discipline: asScalarString(data.discipline ?? "engineering"),
     stream: asScalarString(data.stream ?? "delivery"),
     urgency: Number(data.urgency ?? 3),

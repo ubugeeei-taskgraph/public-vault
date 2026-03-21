@@ -10,7 +10,7 @@ const makeTask = (overrides: Partial<Task>): Task => ({
   visibility: "public",
   portfolio: "personal-oss",
   surface: "repository",
-  repositoryUrl: null,
+  repositoryUrls: [],
   discipline: "engineering",
   stream: "delivery",
   urgency: 3,

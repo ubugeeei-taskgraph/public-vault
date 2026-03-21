@@ -10,6 +10,8 @@ status: active
 visibility: public
 portfolio: personal-oss
 surface: repository
+repository_urls:
+  - https://github.com/vuejs/core
 discipline: engineering
 stream: compatibility
 urgency: 4
@@ -38,7 +40,7 @@ redaction_reason: null
 tags:
   - repo/ubugeeei-vize
   - stream/compatibility
-updated: '2026-03-21'
+updated: '2026-03-22'
 ---
 # Improve Vapor compatibility
 

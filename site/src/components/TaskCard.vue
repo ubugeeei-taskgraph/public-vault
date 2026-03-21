@@ -10,6 +10,14 @@ import MetricPill from "./MetricPill.vue";
 import UiIcon from "./UiIcon.vue";
 import type { Task } from "@/lib/types";
 
+function formatRepositoryLabel(url: string) {
+  try {
+    return new URL(url).pathname.replace(/^\/+/, "");
+  } catch {
+    return "Repository";
+  }
+}
+
 defineProps<{
   task: Task;
   compact?: boolean;
@@ -61,16 +69,19 @@ defineProps<{
     <footer class="task-card__footer">
       <span class="task-card__path">{{ task.path }}</span>
       <div class="task-card__footer-actions">
-        <a
-          v-if="task.repositoryUrl"
-          class="task-card__repo-link"
-          :href="task.repositoryUrl"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <UiIcon :path="mdiLinkVariant" :size="16" />
-          Repository
-        </a>
+        <div v-if="task.repositoryUrls.length > 0" class="task-card__repo-links">
+          <a
+            v-for="url in task.repositoryUrls"
+            :key="url"
+            class="task-card__repo-link"
+            :href="url"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <UiIcon :path="mdiLinkVariant" :size="16" />
+            {{ formatRepositoryLabel(url) }}
+          </a>
+        </div>
         <span class="task-card__links">
           <UiIcon :path="mdiLinkVariant" :size="16" />
           {{ task.children.length }} children

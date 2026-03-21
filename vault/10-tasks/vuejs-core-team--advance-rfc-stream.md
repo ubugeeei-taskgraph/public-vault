@@ -10,6 +10,8 @@ status: active
 visibility: public
 portfolio: official-oss
 surface: team-stream
+repository_urls:
+  - https://github.com/vuejs/rfcs
 discipline: engineering
 stream: delivery
 urgency: 3
@@ -36,7 +38,7 @@ redaction_reason: null
 tags:
   - team/vuejs-core
   - stream/delivery
-updated: '2026-03-21'
+updated: '2026-03-22'
 ---
 # Advance the RFC stream
 

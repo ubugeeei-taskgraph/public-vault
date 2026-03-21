@@ -6,7 +6,7 @@ export interface Task {
   visibility: string;
   portfolio: string;
   surface: string;
-  repositoryUrl: string | null;
+  repositoryUrls: string[];
   discipline: string;
   stream: string;
   urgency: number;

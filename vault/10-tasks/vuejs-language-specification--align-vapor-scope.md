@@ -10,6 +10,8 @@ status: active
 visibility: public
 portfolio: official-oss
 surface: repository
+repository_urls:
+  - https://github.com/vuejs/core
 discipline: engineering
 stream: compatibility
 urgency: 3
@@ -37,7 +39,7 @@ redaction_reason: null
 tags:
   - repo/vuejs-language-specification
   - stream/compatibility
-updated: '2026-03-21'
+updated: '2026-03-22'
 ---
 # Align the Vapor scope
 

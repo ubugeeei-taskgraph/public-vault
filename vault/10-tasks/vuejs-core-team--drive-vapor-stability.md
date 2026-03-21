@@ -8,6 +8,8 @@ status: active
 visibility: public
 portfolio: official-oss
 surface: team-stream
+repository_urls:
+  - https://github.com/vuejs/core
 discipline: engineering
 stream: stabilization
 urgency: 4
@@ -35,7 +37,7 @@ redaction_reason: null
 tags:
   - team/vuejs-core
   - stream/stabilization
-updated: '2026-03-21'
+updated: '2026-03-22'
 ---
 # Drive Vapor toward stability
 

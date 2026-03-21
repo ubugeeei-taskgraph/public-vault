@@ -10,6 +10,10 @@ status: active
 visibility: public
 portfolio: official-oss
 surface: team-stream
+repository_urls:
+  - https://github.com/vuejs/docs
+  - https://github.com/vuejs/core
+  - https://github.com/vuejs/rfcs
 discipline: engineering
 stream: review
 urgency: 4
@@ -42,7 +46,7 @@ redaction_reason: null
 tags:
   - team/vuejs-core
   - visibility/public
-updated: '2026-03-21'
+updated: '2026-03-22'
 ---
 # Advance the Vue.js core team stream
 
