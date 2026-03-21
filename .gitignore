@@ -2,7 +2,6 @@ node_modules
 dist
 coverage
 .DS_Store
-taskgraph-public-vault/.obsidian/workspace.json
 vault/.obsidian/workspace.json
 site/src/generated/public-scope.ts
 site/src/generated/tasks.ts

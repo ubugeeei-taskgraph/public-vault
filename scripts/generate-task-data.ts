@@ -16,7 +16,7 @@ async function directoryExists(directory: string): Promise<boolean> {
 }
 
 async function resolveVaultRoot(root: string): Promise<string> {
-  const candidates = [path.join(root, "taskgraph-public-vault"), path.join(root, "vault")];
+  const candidates = [root, path.join(root, "vault")];
 
   for (const candidate of candidates) {
     if (await directoryExists(path.join(candidate, "10-tasks"))) {

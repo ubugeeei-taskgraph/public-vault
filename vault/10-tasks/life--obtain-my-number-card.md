@@ -52,4 +52,6 @@ This is a plain administrative task, but it has leverage because identity docume
 ## Links
 
 - [Life](./life--advance.md)
+- [File the 2026 tax return](./life--file-2026-tax-return.md)
+- [Obtain a health insurance qualification certificate](./life--obtain-health-insurance-qualification-certificate.md)
 - [Obtain a passport](./life--obtain-passport.md)

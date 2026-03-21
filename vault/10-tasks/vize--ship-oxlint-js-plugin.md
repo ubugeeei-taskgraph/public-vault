@@ -27,6 +27,7 @@ due_date: null
 uncertainty: 3
 blockers: []
 focus:
+  - weekly
   - monthly
 review_week: 2026-W12
 review_month: 2026-03

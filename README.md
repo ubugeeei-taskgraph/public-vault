@@ -7,7 +7,7 @@ It is the public-facing slice of `@ubugeeei`'s task management system, and it is
 ## Responsibilities
 
 - store every public task as a Markdown file
-- keep task notes flat under `taskgraph-public-vault/10-tasks`
+- keep task notes flat under `vault/10-tasks`
 - preserve graph edges through task IDs
 - keep weekly and monthly focus visible in notes
 - state clearly that this repository is only the public subset of the broader task landscape
@@ -16,8 +16,7 @@ It is the public-facing slice of `@ubugeeei`'s task management system, and it is
 
 ## Layout
 
-- `taskgraph-public-vault`: the public Obsidian vault and source of truth
-- `vault`: compatibility mirror for shared config assets
+- `vault`: the public Obsidian vault and source of truth
 - `site`: the Vite-powered dashboard
 - `scripts`: build-time utilities such as task extraction
 - `.github/workflows`: GitHub Pages deployment

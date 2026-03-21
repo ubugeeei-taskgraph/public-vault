@@ -3,12 +3,19 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "generate:tasks": "node scripts/generate-task-data.ts",
-    "dev": "vp run generate:tasks && vp dev",
-    "build": "vp run generate:tasks && vp exec vue-tsc --noEmit -p tsconfig.json && vp build",
-    "preview": "vp preview",
-    "test": "vp run generate:tasks && vp test run",
-    "format": "vp exec prettier --write \"taskgraph-public-vault/**/*.md\" \"site/**/*.{ts,vue,css,html}\" \"scripts/**/*.ts\""
+    "build": "vp run generate:tasks && vp run typecheck && vp run build:site",
+    "build:site": "vp build",
+    "dev": "vp run generate:tasks && vp run dev:site",
+    "dev:site": "vp dev",
+    "format": "vp run format:write",
+    "format:write": "prettier --write \"vault/**/*.md\" \"site/**/*.{ts,vue,css,html}\" \"scripts/**/*.ts\"",
+    "generate:tasks": "vp run generate:tasks:raw",
+    "generate:tasks:raw": "node scripts/generate-task-data.ts",
+    "preview": "vp run preview:site",
+    "preview:site": "vp preview",
+    "test": "vp run generate:tasks && vp run test:site",
+    "test:site": "vp test run",
+    "typecheck": "vue-tsc --noEmit -p tsconfig.json"
   },
   "dependencies": {
     "@mdi/js": "^7.4.47",

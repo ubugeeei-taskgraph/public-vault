@@ -9,13 +9,12 @@ export default defineConfig({
     ignorePatterns: [
       "dist/**",
       "site/src/generated/**",
-      "taskgraph-public-vault/**",
       "vault/**",
       "**/.obsidian/**",
     ],
   },
   lint: {
-    ignorePatterns: ["dist/**", "taskgraph-public-vault/**", "vault/**", "**/.obsidian/**"],
+    ignorePatterns: ["dist/**", "vault/**", "**/.obsidian/**"],
     options: {
       typeAware: true,
       typeCheck: true,

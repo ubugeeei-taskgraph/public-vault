@@ -34,7 +34,9 @@ parent: null
 children:
   - '[[10-tasks/life--pay-february-2026-rent]]'
   - '[[10-tasks/life--address-february-2026-paypay-card-bill]]'
+  - '[[10-tasks/life--file-2026-tax-return]]'
   - '[[10-tasks/life--obtain-my-number-card]]'
+  - '[[10-tasks/life--obtain-health-insurance-qualification-certificate]]'
   - '[[10-tasks/life--obtain-passport]]'
   - '[[10-tasks/life--restore-home-internet]]'
   - '[[10-tasks/life--go-eat-pancakes-in-shibuya]]'
@@ -72,7 +74,9 @@ This stream mixes life administration, home maintenance, supply purchases, and a
 
 - [Pay February 2026 rent](./life--pay-february-2026-rent.md)
 - [Address February 2026 PayPay Card bill](./life--address-february-2026-paypay-card-bill.md)
+- [File the 2026 tax return](./life--file-2026-tax-return.md)
 - [Obtain a My Number Card](./life--obtain-my-number-card.md)
+- [Obtain a health insurance qualification certificate](./life--obtain-health-insurance-qualification-certificate.md)
 - [Obtain a passport](./life--obtain-passport.md)
 - [Restore home internet](./life--restore-home-internet.md)
 - [Go eat pancakes in Shibuya](./life--go-eat-pancakes-in-shibuya.md)

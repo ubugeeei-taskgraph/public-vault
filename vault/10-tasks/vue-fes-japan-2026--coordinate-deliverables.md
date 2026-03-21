@@ -1,10 +1,10 @@
 ---
 note_type: task
 fileClass: task
-id: task.public.event.vuefes-2026.coordinate-deliverables
-title: Coordinate VueFes 2026 deliverables
+id: task.public.event.vue-fes-japan-2026.coordinate-deliverables
+title: Coordinate Vue Fes Japan 2026 deliverables
 content: >-
-  Keep the public VueFes 2026 stream organized while private deployment and
+  Keep the public Vue Fes Japan 2026 stream organized while private deployment and
   product details remain separated.
 status: active
 visibility: public
@@ -33,22 +33,22 @@ review_week: 2026-W12
 review_month: 2026-03
 parent: null
 children:
-  - '[[10-tasks/vuefes-2026--run-fieldwork-and-ui-research]]'
+  - '[[10-tasks/vue-fes-japan-2026--run-fieldwork-and-ui-research]]'
 private_children: 3
 redaction_reason: >-
   Deployment checks and private product work for the event should not appear in
   the public vault.
 tags:
-  - event/vuefes-2026
+  - event/vue-fes-japan-2026
   - visibility/public
   - stream/delivery
 updated: '2026-03-21'
 ---
-# Coordinate VueFes 2026 deliverables
+# Coordinate Vue Fes Japan 2026 deliverables
 
 ## Outcome
 
-Create a clean public planning node for VueFes 2026 and keep outward-facing research visible.
+Create a clean public planning node for Vue Fes Japan 2026 and keep outward-facing research visible.
 
 ## Notes
 
@@ -56,6 +56,6 @@ The public vault should track event-facing progress, design research, and coordi
 
 ## Links
 
-- [Run purikura fieldwork and UI research](./vuefes-2026--run-fieldwork-and-ui-research.md)
+- [Run purikura fieldwork and UI research](./vue-fes-japan-2026--run-fieldwork-and-ui-research.md)
 - [Weekly focus for 2026-W12](../20-focus/weekly/2026-W12.md)
 - [Monthly focus for 2026-03](../20-focus/monthly/2026-03.md)
