@@ -31,7 +31,8 @@ focus:
 review_week: 2026-W12
 review_month: 2026-03
 parent: '[[10-tasks/vize--advance]]'
-children: []
+children:
+  - '[[10-tasks/vize--debug-misskey-storybook-replacement-with-musea]]'
 private_children: 0
 redaction_reason: null
 tags:
@@ -53,3 +54,4 @@ Real-world fixture projects are valuable because they keep the work grounded in 
 
 - [Advance vize](./vize--advance.md)
 - [Make the type checker production ready](./vize--harden-type-checker.md)
+- [Debug replacing the Misskey Storybook with vize/musea](./vize--debug-misskey-storybook-replacement-with-musea.md)
