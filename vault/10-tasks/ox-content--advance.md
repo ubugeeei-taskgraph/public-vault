@@ -34,6 +34,9 @@ parent: null
 children:
   - '[[10-tasks/ox-content--improve-performance]]'
   - '[[10-tasks/ox-content--build-mdast-js-plugin]]'
+  - '[[10-tasks/ox-content--verify-code-highlighting-release]]'
+  - '[[10-tasks/ox-content--implement-vitepress-migration]]'
+  - '[[10-tasks/ox-content--advance-vp-dpcs-proposal]]'
   - '[[10-tasks/ox-content--improve-react-svelte-integration]]'
   - '[[10-tasks/chibinuxt--migrate-to-ox-content]]'
 private_children: 0
@@ -41,7 +44,7 @@ redaction_reason: null
 tags:
   - repo/ubugeeei-ox-content
   - stream/stabilization
-updated: '2026-03-21'
+updated: '2026-03-28'
 ---
 # Advance ox-content
 
@@ -57,6 +60,9 @@ The parent note should make it easy to see whether the project is leaning more t
 
 - [Improve performance in ox-content](./ox-content--improve-performance.md)
 - [Build the mdast-based JavaScript plugin](./ox-content--build-mdast-js-plugin.md)
+- [Verify the ox-content code highlighting release](./ox-content--verify-code-highlighting-release.md)
+- [Implement the ox-content VitePress migration](./ox-content--implement-vitepress-migration.md)
+- [Advance the VP DPCS proposal for ox-content](./ox-content--advance-vp-dpcs-proposal.md)
 - [Improve React and Svelte integration](./ox-content--improve-react-svelte-integration.md)
 - [Migrate chibinuxt to ox-content](./chibinuxt--migrate-to-ox-content.md)
 - [Monthly focus for 2026-03](../20-focus/monthly/2026-03.md)

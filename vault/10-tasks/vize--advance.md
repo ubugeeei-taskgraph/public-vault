@@ -33,6 +33,7 @@ review_month: 2026-03
 parent: null
 children:
   - '[[10-tasks/vize--ship-oxlint-js-plugin]]'
+  - '[[10-tasks/vize--ship-blog-release]]'
   - '[[10-tasks/vize--monitor-oxc-prs]]'
   - '[[10-tasks/vize--fix-misskey-compile-errors]]'
   - '[[10-tasks/vize--harden-type-checker]]'
@@ -44,7 +45,7 @@ redaction_reason: null
 tags:
   - repo/ubugeeei-vize
   - stream/compatibility
-updated: '2026-03-21'
+updated: '2026-03-28'
 ---
 # Advance vize
 
@@ -59,6 +60,7 @@ This stream spans linting, type checking, compilation, SSR, and ecosystem mainte
 ## Links
 
 - [Ship the oxlint JavaScript plugin](./vize--ship-oxlint-js-plugin.md)
+- [Ship the vize blog release](./vize--ship-blog-release.md)
 - [Monitor oxc pull requests](./vize--monitor-oxc-prs.md)
 - [Fix the Misskey compile errors](./vize--fix-misskey-compile-errors.md)
 - [Make the type checker production ready](./vize--harden-type-checker.md)

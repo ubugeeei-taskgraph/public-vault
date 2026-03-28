@@ -31,6 +31,7 @@ review_week: 2026-W12
 review_month: 2026-03
 parent: null
 children:
+  - '[[10-tasks/moonbit--explore-async-model]]'
   - '[[10-tasks/moonbit--advance-jsx-like-story]]'
   - '[[10-tasks/moonbit--build-backend-framework]]'
 private_children: 0
@@ -38,7 +39,7 @@ redaction_reason: null
 tags:
   - area/moonbit
   - research/specification
-updated: '2026-03-21'
+updated: '2026-03-28'
 ---
 # Research the MoonBit language specification
 
@@ -52,6 +53,7 @@ This is the anchor task for the MoonBit thread. It should clarify what is truly 
 
 ## Links
 
+- [Explore the async model in MoonBit](./moonbit--explore-async-model.md)
 - [Advance the MoonBit JSX-like story](./moonbit--advance-jsx-like-story.md)
 - [Build a backend framework in MoonBit](./moonbit--build-backend-framework.md)
 - [Public initiative map](../90-index/initiative-map.md)

@@ -28,8 +28,7 @@ requesters:
 due_date: null
 uncertainty: 2
 blockers: []
-focus:
-  - weekly
+focus: []
 review_week: 2026-W12
 review_month: 2026-03
 parent: '[[10-tasks/vuejs-core-team--advance]]'
@@ -39,7 +38,7 @@ redaction_reason: null
 tags:
   - team/vuejs-core
   - stream/review
-updated: '2026-03-22'
+updated: '2026-03-28'
 ---
 # Review the docs style guide
 

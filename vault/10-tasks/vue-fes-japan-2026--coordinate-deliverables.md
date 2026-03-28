@@ -27,7 +27,6 @@ due_date: null
 uncertainty: 4
 blockers: []
 focus:
-  - weekly
   - monthly
 review_week: 2026-W12
 review_month: 2026-03
@@ -42,7 +41,7 @@ tags:
   - event/vue-fes-japan-2026
   - visibility/public
   - stream/delivery
-updated: '2026-03-21'
+updated: '2026-03-28'
 ---
 # Coordinate Vue Fes Japan 2026 deliverables
 

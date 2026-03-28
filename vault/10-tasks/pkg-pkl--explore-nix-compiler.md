@@ -30,13 +30,14 @@ focus: []
 review_week: 2026-W12
 review_month: 2026-03
 parent: '[[10-tasks/pkg-pkl--advance]]'
-children: []
+children:
+  - '[[10-tasks/pkg-pkl--write-pkl-to-nix-compiler]]'
 private_children: 0
 redaction_reason: null
 tags:
   - repo/ubugeeei-pkg-pkl
   - stream/exploration
-updated: '2026-03-21'
+updated: '2026-03-28'
 ---
 # Explore a Nix compiler path
 
@@ -51,4 +52,5 @@ This stays exploratory until the registry and schema stories are strong enough t
 ## Links
 
 - [Advance pkg.pkl](./pkg-pkl--advance.md)
+- [Write a pkl-to-Nix compiler](./pkg-pkl--write-pkl-to-nix-compiler.md)
 - [Complete the tool-specific pkl schemas](./pkg-pkl--complete-tool-schemas.md)

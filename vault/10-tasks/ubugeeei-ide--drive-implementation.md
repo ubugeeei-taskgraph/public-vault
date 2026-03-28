@@ -27,12 +27,12 @@ due_date: null
 uncertainty: 3
 blockers: []
 focus:
-  - weekly
   - monthly
 review_week: 2026-W12
 review_month: 2026-03
 parent: null
-children: []
+children:
+  - '[[10-tasks/ubugeeei-ide--update-npx-entrypoint]]'
 private_children: 8
 redaction_reason: >-
   Internal feature tracks stay private because the product codename and
@@ -41,7 +41,7 @@ tags:
   - repo/ubugeeei-ide
   - visibility/public
   - stream/delivery
-updated: '2026-03-21'
+updated: '2026-03-28'
 ---
 # Drive implementation for ubugeeei/ide
 
@@ -55,6 +55,7 @@ This task acts as the public umbrella for a private execution tree. The public s
 
 ## Links
 
+- [Update the npx ubugeeei entrypoint](./ubugeeei-ide--update-npx-entrypoint.md)
 - [Weekly focus for 2026-W12](../20-focus/weekly/2026-W12.md)
 - [Monthly focus for 2026-03](../20-focus/monthly/2026-03.md)
 - [Public initiative map](../90-index/initiative-map.md)

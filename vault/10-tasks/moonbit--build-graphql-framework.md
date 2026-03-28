@@ -32,7 +32,8 @@ focus: []
 review_week: 2026-W12
 review_month: 2026-03
 parent: '[[10-tasks/moonbit--build-backend-framework]]'
-children: []
+children:
+  - '[[10-tasks/moonbit--implement-graphql-mbt]]'
 private_children: 0
 redaction_reason: null
 tags:
@@ -40,7 +41,7 @@ tags:
   - area/backend
   - area/graphql
   - research/framework-design
-updated: '2026-03-21'
+updated: '2026-03-28'
 ---
 # Build a GraphQL framework in MoonBit
 
@@ -54,6 +55,7 @@ GraphQL is a good stress case because it exercises type modeling, composition, a
 
 ## Links
 
+- [Implement graphql.mbt](./moonbit--implement-graphql-mbt.md)
 - [Build a backend framework in MoonBit](./moonbit--build-backend-framework.md)
 - [Research the MoonBit language specification](./moonbit--research-language-specification.md)
 - [Public initiative map](../90-index/initiative-map.md)

@@ -33,14 +33,16 @@ focus: []
 review_week: 2026-W12
 review_month: 2026-03
 parent: '[[10-tasks/moonbit--advance-jsx-like-story]]'
-children: []
+children:
+  - '[[10-tasks/vapor-moon--design-typesafe-provide-inject]]'
+  - '[[10-tasks/vapor-moon--publish]]'
 private_children: 0
 redaction_reason: null
 tags:
   - area/moonbit
   - area/vapor
   - repo/vapor-moon
-updated: '2026-03-22'
+updated: '2026-03-28'
 ---
 # Build the vapor-moon Vue SFC Vapor-like compiler
 
@@ -55,6 +57,8 @@ This is intentionally ambitious, so the value is not only in getting code to run
 ## Links
 
 - [vapor-moon repository](https://github.com/ubugeeei/vapor-moon)
+- [Design typesafe provide/inject for vapor-moon](./vapor-moon--design-typesafe-provide-inject.md)
+- [Publish vapor-moon](./vapor-moon--publish.md)
 - [Advance the MoonBit JSX-like story](./moonbit--advance-jsx-like-story.md)
 - [Drive Vapor toward stability](./vuejs-core-team--drive-vapor-stability.md)
 - [Build an mbtx sample](./mbtx--build-sample.md)

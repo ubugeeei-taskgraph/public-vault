@@ -26,8 +26,7 @@ requesters:
 due_date: null
 uncertainty: 4
 blockers: []
-focus:
-  - weekly
+focus: []
 review_week: 2026-W12
 review_month: 2026-03
 parent: '[[10-tasks/vue-fes-japan-2026--coordinate-deliverables]]'
@@ -37,7 +36,7 @@ redaction_reason: null
 tags:
   - event/vue-fes-japan-2026
   - research/ui
-updated: '2026-03-21'
+updated: '2026-03-28'
 ---
 # Run purikura fieldwork and UI research
 

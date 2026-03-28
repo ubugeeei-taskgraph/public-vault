@@ -25,8 +25,7 @@ requesters:
 due_date: null
 uncertainty: 3
 blockers: []
-focus:
-  - weekly
+focus: []
 review_week: 2026-W12
 review_month: 2026-03
 parent: '[[10-tasks/life--advance]]'
@@ -38,7 +37,7 @@ tags:
   - area/life
   - area/home
   - visibility/public
-updated: '2026-03-21'
+updated: '2026-03-28'
 ---
 # Hire a vendor to fix the bath drain clog
 

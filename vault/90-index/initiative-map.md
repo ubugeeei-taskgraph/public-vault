@@ -3,7 +3,7 @@ note_type: index
 id: index.public.initiative-map
 title: Public initiative map
 visibility: public
-updated: 2026-03-21
+updated: 2026-03-28
 ---
 # Public initiative map
 
@@ -21,6 +21,6 @@ SORT portfolio ASC, contains(focus, "weekly") DESC, contains(focus, "monthly") D
 ## Lenses
 
 - [Public home](./home.md)
-- [Weekly focus for 2026-W12](../20-focus/weekly/2026-W12.md)
+- [Weekly focus for 2026-W13](../20-focus/weekly/2026-W13.md)
 - [Monthly focus for 2026-03](../20-focus/monthly/2026-03.md)
 - [Public scope disclosure](./public-scope-disclosure.md)

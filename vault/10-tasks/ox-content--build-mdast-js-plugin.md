@@ -31,13 +31,14 @@ focus:
 review_week: 2026-W12
 review_month: 2026-03
 parent: '[[10-tasks/ox-content--advance]]'
-children: []
+children:
+  - '[[10-tasks/ox-content--verify-javascript-plugin-release]]'
 private_children: 0
 redaction_reason: null
 tags:
   - repo/ubugeeei-ox-content
   - stream/delivery
-updated: '2026-03-21'
+updated: '2026-03-28'
 ---
 # Build the mdast-based JavaScript plugin
 
@@ -52,3 +53,4 @@ This task is important for positioning because it changes how users imagine comp
 ## Links
 
 - [Advance ox-content](./ox-content--advance.md)
+- [Verify the ox-content JavaScript plugin release](./ox-content--verify-javascript-plugin-release.md)

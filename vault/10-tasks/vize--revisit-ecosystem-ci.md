@@ -32,13 +32,14 @@ focus: []
 review_week: 2026-W12
 review_month: 2026-03
 parent: '[[10-tasks/vize--advance]]'
-children: []
+children:
+  - '[[10-tasks/vize--run-ai-assisted-security-checks]]'
 private_children: 0
 redaction_reason: null
 tags:
   - repo/ubugeeei-vize
   - stream/compatibility
-updated: '2026-03-21'
+updated: '2026-03-28'
 ---
 # Revisit ecosystem CI
 
@@ -53,5 +54,6 @@ This is a coordination-heavy task that becomes more valuable once the key compat
 ## Links
 
 - [Advance vize](./vize--advance.md)
+- [Run AI-assisted security checks on vize](./vize--run-ai-assisted-security-checks.md)
 - [Improve SSR and SSG compatibility](./vize--improve-ssr-ssg-compatibility.md)
 - [Improve Vapor compatibility](./vize--improve-vapor-compatibility.md)

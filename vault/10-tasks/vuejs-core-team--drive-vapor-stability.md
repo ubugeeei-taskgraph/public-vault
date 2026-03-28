@@ -31,13 +31,14 @@ focus:
 review_week: 2026-W12
 review_month: 2026-03
 parent: '[[10-tasks/vuejs-core-team--advance]]'
-children: []
+children:
+  - '[[10-tasks/vuejs-core-team--learn-vue-lynx-architecture]]'
 private_children: 0
 redaction_reason: null
 tags:
   - team/vuejs-core
   - stream/stabilization
-updated: '2026-03-22'
+updated: '2026-03-28'
 ---
 # Drive Vapor toward stability
 
@@ -52,4 +53,5 @@ This initiative influences multiple repositories, not just a single codebase. It
 ## Links
 
 - [Advance the Vue.js core team stream](./vuejs-core-team--advance.md)
+- [Learn the Vue Lynx architecture](./vuejs-core-team--learn-vue-lynx-architecture.md)
 - [Advance vuejs-language-specification](./vuejs-language-specification--advance.md)

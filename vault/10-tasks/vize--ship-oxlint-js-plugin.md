@@ -29,16 +29,18 @@ blockers: []
 focus:
   - weekly
   - monthly
-review_week: 2026-W12
+review_week: 2026-W13
 review_month: 2026-03
 parent: '[[10-tasks/vize--advance]]'
-children: []
+children:
+  - '[[10-tasks/tsslint--research-implementation]]'
+  - '[[10-tasks/vize--verify-oxlint-plugin-alpha-release]]'
 private_children: 0
 redaction_reason: null
 tags:
   - repo/ubugeeei-vize
   - stream/stabilization
-updated: '2026-03-21'
+updated: '2026-03-28'
 ---
 # Ship the oxlint JavaScript plugin to production readiness
 
@@ -53,3 +55,5 @@ This is one of the clearest productization tasks inside vize because it turns co
 ## Links
 
 - [Advance vize](./vize--advance.md)
+- [Research the tsslint implementation](./tsslint--research-implementation.md)
+- [Verify the oxlint-plugin-vize alpha release](./vize--verify-oxlint-plugin-alpha-release.md)

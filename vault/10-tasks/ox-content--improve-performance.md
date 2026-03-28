@@ -27,7 +27,6 @@ due_date: null
 uncertainty: 3
 blockers: []
 focus:
-  - weekly
   - monthly
 review_week: 2026-W12
 review_month: 2026-03
@@ -38,7 +37,7 @@ redaction_reason: null
 tags:
   - repo/ubugeeei-ox-content
   - stream/stabilization
-updated: '2026-03-21'
+updated: '2026-03-28'
 ---
 # Improve performance in ox-content
 

@@ -30,7 +30,7 @@ blockers:
 focus:
   - weekly
   - monthly
-review_week: 2026-W12
+review_week: 2026-W13
 review_month: 2026-03
 parent: '[[10-tasks/vize--advance]]'
 children: []
@@ -39,7 +39,7 @@ redaction_reason: null
 tags:
   - repo/ubugeeei-vize
   - stream/stabilization
-updated: '2026-03-21'
+updated: '2026-03-28'
 ---
 # Make the type checker production ready
 
@@ -55,4 +55,4 @@ This is a major public leverage point because a trustworthy type checker changes
 
 - [Advance vize](./vize--advance.md)
 - [Fix the Misskey compile errors](./vize--fix-misskey-compile-errors.md)
-- [Weekly focus for 2026-W12](../20-focus/weekly/2026-W12.md)
+- [Weekly focus for 2026-W13](../20-focus/weekly/2026-W13.md)

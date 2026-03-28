@@ -3,7 +3,7 @@ note_type: home
 id: home.public
 title: Public home
 visibility: public
-updated: 2026-03-21
+updated: 2026-03-28
 ---
 # Public taskgraph
 
@@ -120,7 +120,7 @@ readingPanel.createDiv({ text: "Reading rooms", cls: "tg-panel__title" });
 const readingBody = readingPanel.createDiv({ cls: "tg-link-list" });
 for (const [label, target] of [
   ["Public initiative map", "90-index/initiative-map"],
-  ["Weekly focus for 2026-W12", "20-focus/weekly/2026-W12"],
+  ["Weekly focus for 2026-W13", "20-focus/weekly/2026-W13"],
   ["Monthly focus for 2026-03", "20-focus/monthly/2026-03"],
   ["Public scope disclosure", "90-index/public-scope-disclosure"],
 ]) {
