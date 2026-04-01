@@ -28,8 +28,8 @@ uncertainty: 4
 blockers: []
 focus:
   - weekly
-review_week: 2026-W13
-review_month: 2026-03
+review_week: 2026-W14
+review_month: 2026-04
 parent: null
 children:
   - '[[10-tasks/vite-plus--research-nx-release-and-publish-patterns]]'
@@ -38,7 +38,7 @@ redaction_reason: null
 tags:
   - repo/vite-plus
   - stream/delivery
-updated: '2026-03-28'
+updated: '2026-04-02'
 ---
 # Implement release and publish commands in Vite+
 

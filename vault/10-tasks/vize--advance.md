@@ -29,7 +29,7 @@ blockers: []
 focus:
   - monthly
 review_week: 2026-W12
-review_month: 2026-03
+review_month: 2026-04
 parent: null
 children:
   - '[[10-tasks/vize--ship-oxlint-js-plugin]]'
@@ -45,7 +45,7 @@ redaction_reason: null
 tags:
   - repo/ubugeeei-vize
   - stream/compatibility
-updated: '2026-03-28'
+updated: '2026-04-02'
 ---
 # Advance vize
 

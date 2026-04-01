@@ -27,12 +27,12 @@ due_date: null
 uncertainty: 3
 blockers: []
 focus:
-  - weekly
   - monthly
-review_week: 2026-W13
-review_month: 2026-03
+review_week: 2026-W14
+review_month: 2026-04
 parent: '[[10-tasks/vize--advance]]'
 children:
+  - '[[10-tasks/tsgo-rs--advance-for-oxlint-and-vize]]'
   - '[[10-tasks/tsslint--research-implementation]]'
   - '[[10-tasks/vize--verify-oxlint-plugin-alpha-release]]'
 private_children: 0
@@ -40,7 +40,7 @@ redaction_reason: null
 tags:
   - repo/ubugeeei-vize
   - stream/stabilization
-updated: '2026-03-28'
+updated: '2026-04-02'
 ---
 # Ship the oxlint JavaScript plugin to production readiness
 
@@ -50,10 +50,11 @@ Finish the rough edges that still separate the plugin from broad public use.
 
 ## Notes
 
-This is one of the clearest productization tasks inside vize because it turns core implementation work into a dependable user surface.
+This is one of the clearest productization tasks inside vize because it turns core implementation work into a dependable user surface. The current implementation lane also runs through `tsgo_rs`, which is shaping the lower-level TypeScript and Oxlint-facing foundation behind the plugin work.
 
 ## Links
 
 - [Advance vize](./vize--advance.md)
+- [Advance tsgo_rs for oxlint and vize](./tsgo-rs--advance-for-oxlint-and-vize.md)
 - [Research the tsslint implementation](./tsslint--research-implementation.md)
 - [Verify the oxlint-plugin-vize alpha release](./vize--verify-oxlint-plugin-alpha-release.md)

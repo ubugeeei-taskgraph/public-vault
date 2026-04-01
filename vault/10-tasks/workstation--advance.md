@@ -10,6 +10,9 @@ status: active
 visibility: public
 portfolio: personal-operations
 surface: infrastructure
+repository_urls:
+  - https://github.com/ubugeeei/ush
+  - https://github.com/ubugeeei/tnix
 discipline: infra
 stream: migration
 urgency: 4
@@ -29,7 +32,7 @@ blockers: []
 focus:
   - monthly
 review_week: 2026-W12
-review_month: 2026-03
+review_month: 2026-04
 parent: null
 children:
   - '[[10-tasks/workstation--migrate-to-nix]]'
@@ -41,7 +44,7 @@ tags:
   - area/workstation
   - visibility/public
   - stream/migration
-updated: '2026-03-21'
+updated: '2026-04-02'
 ---
 # Advance the personal workstation environment
 
@@ -55,6 +58,8 @@ This initiative captures personal operations work that supports every other stre
 
 ## Links
 
+- [ush repository](https://github.com/ubugeeei/ush)
+- [tnix repository](https://github.com/ubugeeei/tnix)
 - [Migrate the personal workstation environment to Nix](./workstation--migrate-to-nix.md)
 - [Upgrade macOS on the personal workstation](./workstation--upgrade-macos.md)
 - [Public initiative map](../90-index/initiative-map.md)
