@@ -15,7 +15,7 @@ stream: exploration
 urgency: 3
 importance: 3
 progress: 0
-efforts: 6
+efforts: 8
 agenty: 4
 owners:
   - ubugeeei
@@ -31,17 +31,18 @@ review_week: 2026-W12
 review_month: 2026-03
 parent: null
 children:
-  - '[[10-tasks/web-origami--refine-ui]]'
-  - '[[10-tasks/web-origami--support-multiple-folds]]'
-  - '[[10-tasks/web-origami--port-to-fwgl]]'
+  - "[[10-tasks/web-origami--refine-ui]]"
+  - "[[10-tasks/web-origami--support-multiple-folds]]"
+  - "[[10-tasks/web-origami--port-to-fwgl]]"
 private_children: 0
 redaction_reason: null
 tags:
   - area/origami
   - area/web-graphics
   - stream/exploration
-updated: '2026-03-25'
+updated: "2026-03-25"
 ---
+
 # Advance the web origami prototype
 
 ## Outcome

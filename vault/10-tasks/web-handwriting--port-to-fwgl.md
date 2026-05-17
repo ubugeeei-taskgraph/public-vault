@@ -15,7 +15,7 @@ stream: migration
 urgency: 3
 importance: 4
 progress: 0
-efforts: 4
+efforts: 5
 agenty: 4
 owners:
   - ubugeeei
@@ -29,15 +29,16 @@ blockers: []
 focus: []
 review_week: 2026-W12
 review_month: 2026-03
-parent: '[[10-tasks/web-handwriting--advance]]'
+parent: "[[10-tasks/web-handwriting--advance]]"
 children: []
 private_children: 0
 redaction_reason: null
 tags:
   - area/handwriting
   - repo/ubugeeei-fwgl
-updated: '2026-03-25'
+updated: "2026-03-25"
 ---
+
 # Port the web handwriting prototype to fwgl
 
 ## Outcome

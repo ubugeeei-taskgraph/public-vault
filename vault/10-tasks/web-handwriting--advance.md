@@ -15,7 +15,7 @@ stream: exploration
 urgency: 3
 importance: 3
 progress: 0
-efforts: 6
+efforts: 8
 agenty: 4
 owners:
   - ubugeeei
@@ -31,17 +31,18 @@ review_week: 2026-W12
 review_month: 2026-03
 parent: null
 children:
-  - '[[10-tasks/web-handwriting--refine-ui]]'
-  - '[[10-tasks/web-handwriting--support-alphabet]]'
-  - '[[10-tasks/web-handwriting--port-to-fwgl]]'
+  - "[[10-tasks/web-handwriting--refine-ui]]"
+  - "[[10-tasks/web-handwriting--support-alphabet]]"
+  - "[[10-tasks/web-handwriting--port-to-fwgl]]"
 private_children: 0
 redaction_reason: null
 tags:
   - area/handwriting
   - area/web-graphics
   - stream/exploration
-updated: '2026-03-25'
+updated: "2026-03-25"
 ---
+
 # Advance the web handwriting prototype
 
 ## Outcome

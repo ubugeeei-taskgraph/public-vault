@@ -14,7 +14,7 @@ discipline: engineering
 stream: stabilization
 urgency: 4
 importance: 4
-progress: 14
+progress: 28
 efforts: 5
 agenty: 4
 owners:
@@ -27,19 +27,21 @@ due_date: null
 uncertainty: 3
 blockers: []
 focus:
+  - weekly
   - monthly
-review_week: 2026-W12
-review_month: 2026-03
-parent: '[[10-tasks/vize--advance]]'
+review_week: 2026-W20
+review_month: 2026-05
+parent: "[[10-tasks/vize--advance]]"
 children:
-  - '[[10-tasks/vize--debug-misskey-storybook-replacement-with-musea]]'
+  - "[[10-tasks/vize--debug-misskey-storybook-replacement-with-musea]]"
 private_children: 0
 redaction_reason: null
 tags:
   - repo/ubugeeei-vize
   - stream/stabilization
-updated: '2026-03-21'
+updated: "2026-05-17"
 ---
+
 # Fix the Misskey compile errors
 
 ## Outcome
@@ -48,10 +50,12 @@ Resolve a concrete public compatibility case that can reveal deeper assumptions 
 
 ## Notes
 
-Real-world fixture projects are valuable because they keep the work grounded in user-facing breakage rather than synthetic examples.
+2026-05-17 improved the real-world reproduction infrastructure around this task: E2E snapshot baselines were audited, Vite plugin compile errors now fail loudly, and Nuxt/Vite compatibility fixes reduced several framework-generated false paths. Misskey still needs a dedicated replacement pass; today's work mostly makes the next concrete compile-error run easier to trust.
 
 ## Links
 
 - [Advance vize](./vize--advance.md)
 - [Make the type checker production ready](./vize--harden-type-checker.md)
 - [Debug replacing the Misskey Storybook with vize/musea](./vize--debug-misskey-storybook-replacement-with-musea.md)
+- [Real-world snapshot baseline audit](https://github.com/ubugeeei/vize/issues/399)
+- [Vite plugin compile-error hardening](https://github.com/ubugeeei/vize/issues/384)
