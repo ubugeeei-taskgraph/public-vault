@@ -14,7 +14,7 @@ discipline: operations
 stream: delivery
 urgency: 4
 importance: 5
-progress: 0
+progress: 3
 efforts: 13
 agenty: 2
 owners:
@@ -27,30 +27,32 @@ due_date: null
 uncertainty: 3
 blockers: []
 focus:
+  - weekly
   - monthly
-review_week: 2026-W12
-review_month: 2026-03
+review_week: 2026-W21
+review_month: 2026-05
 parent: null
 children:
-  - '[[10-tasks/life--pay-february-2026-rent]]'
-  - '[[10-tasks/life--address-february-2026-paypay-card-bill]]'
-  - '[[10-tasks/life--file-2026-tax-return]]'
-  - '[[10-tasks/life--obtain-my-number-card]]'
-  - '[[10-tasks/life--obtain-health-insurance-qualification-certificate]]'
-  - '[[10-tasks/life--obtain-passport]]'
-  - '[[10-tasks/life--restore-home-internet]]'
-  - '[[10-tasks/life--go-eat-pancakes-in-shibuya]]'
-  - '[[10-tasks/life--learn-to-make-crepes-at-home]]'
-  - '[[10-tasks/life--take-out-march-2026-trash]]'
-  - '[[10-tasks/life--hire-vendor-to-fix-bath-drain-clog]]'
-  - '[[10-tasks/life--consider-replacing-desk]]'
-  - '[[10-tasks/life--get-matteo-mancuso-ticket]]'
-  - '[[10-tasks/life--buy-sandals]]'
-  - '[[10-tasks/life--buy-che-buranko-carton]]'
-  - '[[10-tasks/life--bulk-buy-paper-cups]]'
-  - '[[10-tasks/life--bulk-buy-toilet-paper]]'
-  - '[[10-tasks/life--make-prescription-sunglasses]]'
-  - '[[10-tasks/life--buy-more-houseplants]]'
+  - "[[10-tasks/life--pay-february-2026-rent]]"
+  - "[[10-tasks/life--address-february-2026-paypay-card-bill]]"
+  - "[[10-tasks/life--file-2026-tax-return]]"
+  - "[[10-tasks/life--obtain-my-number-card]]"
+  - "[[10-tasks/life--obtain-health-insurance-qualification-certificate]]"
+  - "[[10-tasks/life--obtain-passport]]"
+  - "[[10-tasks/life--restore-home-internet]]"
+  - "[[10-tasks/life--go-eat-pancakes-in-shibuya]]"
+  - "[[10-tasks/life--learn-to-make-crepes-at-home]]"
+  - "[[10-tasks/life--take-out-march-2026-trash]]"
+  - "[[10-tasks/life--hire-vendor-to-fix-bath-drain-clog]]"
+  - "[[10-tasks/life--consider-replacing-desk]]"
+  - "[[10-tasks/life--get-matteo-mancuso-ticket]]"
+  - "[[10-tasks/life--buy-sandals]]"
+  - "[[10-tasks/life--buy-che-buranko-carton]]"
+  - "[[10-tasks/life--bulk-buy-paper-cups]]"
+  - "[[10-tasks/life--bulk-buy-toilet-paper]]"
+  - "[[10-tasks/life--make-prescription-sunglasses]]"
+  - "[[10-tasks/life--buy-more-houseplants]]"
+  - "[[10-tasks/life--buy-long-shield]]"
 private_children: 0
 redaction_reason: null
 public_bridge_id: null
@@ -58,8 +60,9 @@ tags:
   - area/life
   - visibility/public
   - stream/delivery
-updated: '2026-03-21'
+updated: "2026-05-23"
 ---
+
 # Life
 
 ## Outcome
@@ -69,6 +72,8 @@ Keep everyday obligations and small personal plans visible enough that they can 
 ## Notes
 
 This stream mixes life administration, home maintenance, supply purchases, and a few small enjoyment tasks. The point is not to treat everything as equally urgent, but to make the whole shape of personal life load visible.
+
+Added a small purchase task for the long shield so it does not stay as ambient mental inventory.
 
 ## Links
 
@@ -91,3 +96,4 @@ This stream mixes life administration, home maintenance, supply purchases, and a
 - [Buy toilet paper in bulk](./life--bulk-buy-toilet-paper.md)
 - [Make prescription sunglasses](./life--make-prescription-sunglasses.md)
 - [Buy more houseplants](./life--buy-more-houseplants.md)
+- [Buy a long shield](./life--buy-long-shield.md)

@@ -14,7 +14,7 @@ discipline: engineering
 stream: stabilization
 urgency: 4
 importance: 4
-progress: 45
+progress: 62
 efforts: 5
 agenty: 4
 owners:
@@ -29,7 +29,7 @@ blockers: []
 focus:
   - weekly
   - monthly
-review_week: 2026-W20
+review_week: 2026-W21
 review_month: 2026-05
 parent: null
 children:
@@ -39,13 +39,14 @@ children:
   - "[[10-tasks/ox-content--implement-vitepress-migration]]"
   - "[[10-tasks/ox-content--advance-vp-dpcs-proposal]]"
   - "[[10-tasks/ox-content--improve-react-svelte-integration]]"
+  - "[[10-tasks/ox-content--build-slide-feature]]"
   - "[[10-tasks/chibinuxt--migrate-to-ox-content]]"
 private_children: 0
 redaction_reason: null
 tags:
   - repo/ubugeeei-ox-content
   - stream/stabilization
-updated: "2026-05-17"
+updated: "2026-05-23"
 ---
 
 # Advance ox-content
@@ -60,6 +61,8 @@ Move ox-content toward a more compelling public release by balancing speed, plug
 
 This makes the near-term ox-content story less about adding surface area and more about proving that the faster Rust core can carry real documentation workflows cleanly.
 
+2026-05-22 activity added another readiness layer: parser fixes, MDC checker diagnostics, Rust metadata centralization, protected public exports, package dry-runs, dependency policy gates, benchmark thresholds, and cross-platform NAPI smoke coverage. That makes the slide feature a more plausible next product surface rather than a side quest.
+
 ## Links
 
 - [Improve performance in ox-content](./ox-content--improve-performance.md)
@@ -68,10 +71,13 @@ This makes the near-term ox-content story less about adding surface area and mor
 - [Implement the ox-content VitePress migration](./ox-content--implement-vitepress-migration.md)
 - [Advance the VP DPCS proposal for ox-content](./ox-content--advance-vp-dpcs-proposal.md)
 - [Improve React and Svelte integration](./ox-content--improve-react-svelte-integration.md)
+- [Build the ox-content slide feature](./ox-content--build-slide-feature.md)
 - [Migrate chibinuxt to ox-content](./chibinuxt--migrate-to-ox-content.md)
 - [Rust docs and SSG helpers PR](https://github.com/ubugeeei/ox-content/pull/105)
 - [Rust search index build PR](https://github.com/ubugeeei/ox-content/pull/106)
 - [Rust search index write PR](https://github.com/ubugeeei/ox-content/pull/107)
 - [Rust i18n project checks PR](https://github.com/ubugeeei/ox-content/pull/109)
 - [Rust bare SSG HTML PR](https://github.com/ubugeeei/ox-content/pull/110)
+- [MDC checker diagnostics PR](https://github.com/ubugeeei/ox-content/pull/140)
+- [Cross-platform NAPI smoke coverage PR](https://github.com/ubugeeei/ox-content/pull/144)
 - [Monthly focus for 2026-05](../20-focus/monthly/2026-05.md)
