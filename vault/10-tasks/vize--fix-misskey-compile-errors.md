@@ -14,7 +14,7 @@ discipline: engineering
 stream: stabilization
 urgency: 4
 importance: 4
-progress: 35
+progress: 78
 efforts: 5
 agenty: 4
 owners:
@@ -29,8 +29,8 @@ blockers: []
 focus:
   - weekly
   - monthly
-review_week: 2026-W21
-review_month: 2026-05
+review_week: 2026-W25
+review_month: 2026-06
 parent: "[[10-tasks/vize--advance]]"
 children:
   - "[[10-tasks/vize--debug-misskey-storybook-replacement-with-musea]]"
@@ -40,7 +40,7 @@ redaction_reason: null
 tags:
   - repo/ubugeeei-vize
   - stream/stabilization
-updated: "2026-05-23"
+updated: "2026-06-21"
 ---
 
 # Fix the Misskey compile errors
@@ -55,6 +55,8 @@ Resolve a concrete public compatibility case that can reveal deeper assumptions 
 
 The next useful shape is a focused bug-bash session: choose a current Misskey branch, run Vize against the real app surfaces, collect failures, and close small fixes without trying to redesign the whole compatibility story in one pass.
 
+2026-06-18 through 2026-06-21 looks like that bug-bash loop happened in practice: many small compatibility fixes closed around Nuxt 2, virtual TypeScript, Musea static output, formatter convergence, package cwd handling, and HMR invalidation. Treat the old Misskey compile-error links as complete; the remaining work is to merge the final Vue 2 helper fix and decide whether any new failures from the current canary deserve their own tasks.
+
 ## Links
 
 - [Advance vize](./vize--advance.md)
@@ -63,3 +65,5 @@ The next useful shape is a focused bug-bash session: choose a current Misskey br
 - [Run a Misskey Vize bug-bash](./vize--run-misskey-bug-bash.md)
 - [Real-world snapshot baseline audit](https://github.com/ubugeeei/vize/issues/399)
 - [Vite plugin compile-error hardening](https://github.com/ubugeeei/vize/issues/384)
+- [Legacy Vue 2 helper PR](https://github.com/ubugeeei-prod/vize/pull/2059)
+- [HMR invalidation PR](https://github.com/ubugeeei-prod/vize/pull/2058)

@@ -14,7 +14,7 @@ discipline: engineering
 stream: stabilization
 urgency: 4
 importance: 4
-progress: 68
+progress: 75
 efforts: 5
 agenty: 4
 owners:
@@ -29,8 +29,8 @@ blockers: []
 focus:
   - weekly
   - monthly
-review_week: 2026-W21
-review_month: 2026-05
+review_week: 2026-W25
+review_month: 2026-06
 parent: "[[10-tasks/vize--advance]]"
 children:
   - "[[10-tasks/tsgo-rs--advance-for-oxlint-and-vize]]"
@@ -42,7 +42,7 @@ redaction_reason: null
 tags:
   - repo/ubugeeei-vize
   - stream/stabilization
-updated: "2026-05-23"
+updated: "2026-06-21"
 ---
 
 # Ship the oxlint JavaScript plugin to production readiness
@@ -57,6 +57,8 @@ This is one of the clearest productization tasks inside vize because it turns co
 
 2026-05-22 and 2026-05-23 `corsa-bind` activity moved corsa-oxlint from "promising" to something closer to parity: native tsgolint rules, unsafe TypeScript rules, AST utilities, benchmark-driven tuning, and utility API parity all landed or closed. The next task is no longer only implementation; it is representative operation checks from the Vize side.
 
+2026-06 activity adds confidence but also keeps this open: `corsa-bind` has green-check PRs for RuleTester isolation and ESTree tuple ranges, and `vize` continues to harden the compatibility paths that would consume the plugin. Treat the plugin as past core implementation and still inside production verification.
+
 ## Links
 
 - [Advance vize](./vize--advance.md)
@@ -66,3 +68,4 @@ This is one of the clearest productization tasks inside vize because it turns co
 - [Verify corsa-oxlint behavior](./corsa-bind--verify-corsa-oxlint.md)
 - [corsa-bind PR 145](https://github.com/ubugeeei/corsa-bind/pull/145)
 - [corsa-bind issue 120](https://github.com/ubugeeei/corsa-bind/issues/120)
+- [ESTree tuple ranges PR](https://github.com/ubugeeei-prod/corsa-bind/pull/354)

@@ -14,7 +14,7 @@ discipline: engineering
 stream: compatibility
 urgency: 4
 importance: 5
-progress: 70
+progress: 86
 efforts: 8
 agenty: 4
 owners:
@@ -29,8 +29,8 @@ blockers: []
 focus:
   - weekly
   - monthly
-review_week: 2026-W21
-review_month: 2026-05
+review_week: 2026-W25
+review_month: 2026-06
 parent: null
 children:
   - "[[10-tasks/vize--ship-oxlint-js-plugin]]"
@@ -48,7 +48,7 @@ redaction_reason: null
 tags:
   - repo/ubugeeei-vize
   - stream/compatibility
-updated: "2026-05-23"
+updated: "2026-06-21"
 ---
 
 # Advance vize
@@ -64,6 +64,8 @@ Raise vize from an ambitious toolchain effort to something that feels dependable
 The next connective work is to land the open package metadata thread and keep the remaining SFC/Vapor fixture gaps visible enough that they do not disappear under the broader "production readiness" label.
 
 2026-05-18 through 2026-05-23 activity pushed the repo further into production-readiness cleanup: release/security policy work closed, fuzz reproducers were handled, Corsa runtime configuration landed, config toggles were fixed, and native/editor smoke paths became more concrete. The new focus is practical verification: LSP behavior, VSIX packaging, Neovim usage, and a Misskey bug-bash pass.
+
+2026-06-18 through 2026-06-21 activity turned that verification pressure into a large compatibility burn-down. Dozens of vize PRs landed across Canon virtual TypeScript, Nuxt 2 compatibility, Musea static output, formatter convergence, HMR invalidation, Patina migration support, and packaging cleanup. The main open thread is now the draft legacy Vue 2 helper fix in `ubugeeei-prod/vize#2059`; keep the weekly focus on closing that and preserving the new regression coverage.
 
 ## Links
 
@@ -83,4 +85,8 @@ The next connective work is to land the open package metadata thread and keep th
 - [Vapor fixture gap issue](https://github.com/ubugeeei/vize/issues/424)
 - [SFC script setup gap issue](https://github.com/ubugeeei/vize/issues/425)
 - [SFC patch fixture gap issue](https://github.com/ubugeeei/vize/issues/426)
+- [Legacy Vue 2 helper PR](https://github.com/ubugeeei-prod/vize/pull/2059)
+- [HMR invalidation PR](https://github.com/ubugeeei-prod/vize/pull/2058)
+- [Lint migration and scoped CSS PR](https://github.com/ubugeeei-prod/vize/pull/2057)
 - [Monthly focus for 2026-05](../20-focus/monthly/2026-05.md)
+- [Monthly focus for 2026-06](../20-focus/monthly/2026-06.md)

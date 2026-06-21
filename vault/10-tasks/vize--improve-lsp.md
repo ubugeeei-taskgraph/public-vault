@@ -15,7 +15,7 @@ discipline: engineering
 stream: stabilization
 urgency: 5
 importance: 5
-progress: 30
+progress: 55
 efforts: 8
 agenty: 4
 owners:
@@ -30,8 +30,8 @@ blockers: []
 focus:
   - weekly
   - monthly
-review_week: 2026-W21
-review_month: 2026-05
+review_week: 2026-W25
+review_month: 2026-06
 parent: "[[10-tasks/vize--advance]]"
 children:
   - "[[10-tasks/vize--verify-neovim]]"
@@ -41,7 +41,7 @@ public_bridge_id: null
 tags:
   - repo/ubugeeei-vize
   - stream/stabilization
-updated: 2026-05-23
+updated: 2026-06-21
 ---
 
 # Improve Vize LSP behavior
@@ -54,9 +54,12 @@ Make the LSP path trustworthy enough that editor users can try Vize without imme
 
 Recent activity added Corsa-backed editor integration smoke coverage and closed several config/runtime naming issues. The next work is to turn those checks into practical editor confidence: VS Code/VSIX testing, Neovim testing, and real diagnostic flows.
 
+2026-06-20 closed the LSP package entrypoint documentation issue in the same hardening wave that kept editor-extension checks green on the latest vize PRs. This is no longer the main weekly lane, but it should stay in June review until VSIX and Neovim verification are explicitly closed or deferred.
+
 ## Links
 
 - [Advance vize](./vize--advance.md)
 - [Verify Vize in Neovim](./vize--verify-neovim.md)
 - [Corsa-backed editor integration smoke](https://github.com/ubugeeei/vize/issues/548)
 - [Runtime naming cleanup](https://github.com/ubugeeei/vize/issues/550)
+- [LSP package entrypoint docs](https://github.com/ubugeeei-prod/vize/issues/1865)

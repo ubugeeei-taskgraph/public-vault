@@ -17,7 +17,7 @@ discipline: engineering
 stream: stabilization
 urgency: 4
 importance: 4
-progress: 0
+progress: 80
 efforts: 5
 agenty: 3
 owners:
@@ -27,12 +27,12 @@ assignees:
 requesters:
   - self
 due_date: null
-uncertainty: 4
+uncertainty: 2
 blockers: []
 focus:
   - weekly
-review_week: 2026-W21
-review_month: 2026-05
+review_week: 2026-W25
+review_month: 2026-06
 parent: "[[10-tasks/vize--fix-misskey-compile-errors]]"
 children: []
 private_children: 0
@@ -42,7 +42,7 @@ tags:
   - repo/ubugeeei-vize
   - repo/misskey
   - stream/stabilization
-updated: 2026-05-23
+updated: 2026-06-21
 ---
 
 # Run a Misskey Vize bug-bash
@@ -55,7 +55,11 @@ Turn the Misskey compatibility thread from a broad concern into a concrete list 
 
 Start by choosing the Misskey revision and command path, then collect the first failures without overfitting. Good output is a short bug ledger plus one or two fixes that prove the loop works.
 
+2026-06-18 through 2026-06-21 produced the intended bug-bash shape: the work broke down into many narrow PRs instead of one broad rewrite, with fixes for Nuxt 2 module/runtime behavior, SFC virtual TS, setup/Options API edge cases, Musea static output, formatter convergence, and HMR invalidation. Keep this open only until the current legacy Vue 2 helper PR is merged and the remaining issue list is re-triaged.
+
 ## Links
 
 - [Fix the Misskey compile errors](./vize--fix-misskey-compile-errors.md)
 - [Debug replacing the Misskey Storybook with vize/musea](./vize--debug-misskey-storybook-replacement-with-musea.md)
+- [Legacy Vue 2 helper PR](https://github.com/ubugeeei-prod/vize/pull/2059)
+- [Lint migration and scoped CSS PR](https://github.com/ubugeeei-prod/vize/pull/2057)
