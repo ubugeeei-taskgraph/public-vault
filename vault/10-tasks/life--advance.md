@@ -56,6 +56,8 @@ children:
   - "[[10-tasks/life--book-dentist-appointment]]"
   - "[[10-tasks/life--renew-rental-contract]]"
   - "[[10-tasks/life--create-jazz-playlist]]"
+  - "[[10-tasks/life--buy-good-headphones]]"
+  - "[[10-tasks/life--improve-home-sound-system]]"
 private_children: 0
 redaction_reason: null
 public_bridge_id: null
@@ -78,7 +80,7 @@ This stream mixes life administration, home maintenance, supply purchases, and a
 
 Added a small purchase task for the long shield so it does not stay as ambient mental inventory.
 
-October 2026 adds a dentist appointment, the rental contract renewal, and a jazz playlist.
+October 2026 adds a dentist appointment, the rental contract renewal, a jazz playlist, good headphones, and a better home sound system.
 
 ## Links
 
@@ -105,3 +107,5 @@ October 2026 adds a dentist appointment, the rental contract renewal, and a jazz
 - [Book a dentist appointment](./life--book-dentist-appointment.md)
 - [Renew the rental contract](./life--renew-rental-contract.md)
 - [Create a jazz playlist](./life--create-jazz-playlist.md)
+- [Buy good headphones](./life--buy-good-headphones.md)
+- [Improve the home sound system](./life--improve-home-sound-system.md)
