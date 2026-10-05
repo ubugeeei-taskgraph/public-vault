@@ -6,7 +6,7 @@ title: Test the Vize VSIX package
 content: >-
   Verify the Vize VSIX packaging and install flow before treating the editor
   experience as ready for external trials.
-status: active
+status: done
 visibility: public
 portfolio: personal-oss
 surface: repository
@@ -15,7 +15,7 @@ discipline: engineering
 stream: stabilization
 urgency: 4
 importance: 4
-progress: 0
+progress: 100
 efforts: 3
 agenty: 4
 owners:
@@ -27,8 +27,7 @@ requesters:
 due_date: null
 uncertainty: 3
 blockers: []
-focus:
-  - weekly
+focus: []
 review_week: 2026-W21
 review_month: 2026-05
 parent: "[[10-tasks/vize--advance]]"
@@ -40,7 +39,7 @@ tags:
   - repo/ubugeeei-vize
   - editor/vscode
   - stream/stabilization
-updated: 2026-05-23
+updated: "2026-10-05"
 ---
 
 # Test the Vize VSIX package
@@ -52,6 +51,8 @@ Confirm that the VSIX can be built, installed, activated, and used against a rep
 ## Notes
 
 This should cover local installation, extension activation, expected commands/settings, LSP startup, and any Marketplace-facing metadata assumptions that affect a later release.
+
+2026-10-05 review: the `ubugeeei.vize` extension is published on the VS Code Marketplace and updated with each release.
 
 ## Links
 

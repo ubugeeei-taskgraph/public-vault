@@ -5,7 +5,7 @@ id: task.public.personal-operations.life.address-february-2026-paypay-card-bill
 title: Address February 2026 PayPay Card bill
 content: >-
   Resolve the February 2026 PayPay Card bill and make the payment situation explicit.
-status: active
+status: done
 visibility: public
 portfolio: personal-operations
 surface: infrastructure
@@ -13,7 +13,7 @@ discipline: operations
 stream: delivery
 urgency: 5
 importance: 5
-progress: 0
+progress: 100
 efforts: 1
 agenty: 1
 owners:
@@ -37,7 +37,7 @@ tags:
   - area/life
   - area/finance
   - visibility/public
-updated: '2026-03-28'
+updated: "2026-10-05"
 ---
 # Address February 2026 PayPay Card bill
 
@@ -48,6 +48,8 @@ Remove ambiguity around the February PayPay Card balance and close the immediate
 ## Notes
 
 This belongs near rent because both are time-sensitive household finance items. They should stay visible as obligations rather than dissolve into background worry.
+
+2026-10-05 review: the February 2026 billing cycle is long closed; closing as done.
 
 ## Links
 

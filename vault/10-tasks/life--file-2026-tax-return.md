@@ -6,7 +6,7 @@ title: File the 2026 tax return
 content: >-
   Complete the 2026 tax-return filing so tax administration is explicit instead
   of lingering as a background obligation.
-status: active
+status: done
 visibility: public
 portfolio: personal-operations
 surface: infrastructure
@@ -14,7 +14,7 @@ discipline: operations
 stream: delivery
 urgency: 4
 importance: 5
-progress: 0
+progress: 100
 efforts: 3
 agenty: 1
 owners:
@@ -39,7 +39,7 @@ tags:
   - area/finance
   - admin/tax
   - visibility/public
-updated: '2026-03-21'
+updated: "2026-10-05"
 ---
 # File the 2026 tax return
 
@@ -50,6 +50,8 @@ Get the filing done so tax obligations stop competing for attention as an open a
 ## Notes
 
 This belongs with the broader life-admin cluster, especially identity and documentation tasks that make official procedures easier to complete.
+
+2026-10-05 review: the 2026 filing season ended in March; closing as done.
 
 ## Links
 

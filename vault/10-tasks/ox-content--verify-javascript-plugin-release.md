@@ -6,7 +6,7 @@ title: Verify the ox-content JavaScript plugin release
 content: >-
   Check that the ox-content JavaScript plugin is ready for release across
   packaging, runtime behavior, and integration flows.
-status: active
+status: done
 visibility: public
 portfolio: personal-oss
 surface: repository
@@ -14,7 +14,7 @@ discipline: engineering
 stream: stabilization
 urgency: 3
 importance: 4
-progress: 0
+progress: 100
 efforts: 3
 agenty: 4
 owners:
@@ -26,8 +26,7 @@ requesters:
 due_date: null
 uncertainty: 3
 blockers: []
-focus:
-  - weekly
+focus: []
 review_week: 2026-W13
 review_month: 2026-03
 parent: '[[10-tasks/ox-content--build-mdast-js-plugin]]'
@@ -37,7 +36,7 @@ redaction_reason: null
 tags:
   - repo/ubugeeei-ox-content
   - stream/stabilization
-updated: '2026-03-28'
+updated: "2026-10-05"
 ---
 # Verify the ox-content JavaScript plugin release
 
@@ -48,6 +47,8 @@ Reach a point where the JavaScript plugin can be released with confidence rather
 ## Notes
 
 This is the release-facing follow-through for the mdast-based plugin work. It should validate not only the code path but also the packaging surface users actually touch.
+
+2026-10-05 review: ox-content has shipped many releases since (3.2.13 on npm, v3.3 in progress), so this release gate is behind us.
 
 ## Links
 

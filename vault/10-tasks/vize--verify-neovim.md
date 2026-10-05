@@ -6,7 +6,7 @@ title: Verify Vize in Neovim
 content: >-
   Check that Vize can be used from Neovim through a realistic LSP setup and
   capture the missing pieces.
-status: active
+status: done
 visibility: public
 portfolio: personal-oss
 surface: repository
@@ -15,7 +15,7 @@ discipline: engineering
 stream: stabilization
 urgency: 4
 importance: 4
-progress: 0
+progress: 100
 efforts: 3
 agenty: 4
 owners:
@@ -27,8 +27,7 @@ requesters:
 due_date: null
 uncertainty: 4
 blockers: []
-focus:
-  - weekly
+focus: []
 review_week: 2026-W21
 review_month: 2026-05
 parent: "[[10-tasks/vize--improve-lsp]]"
@@ -40,7 +39,7 @@ tags:
   - repo/ubugeeei-vize
   - editor/neovim
   - stream/stabilization
-updated: 2026-05-23
+updated: "2026-10-05"
 ---
 
 # Verify Vize in Neovim
@@ -52,6 +51,8 @@ Get a concrete answer for whether Neovim users can bring up Vize LSP, receive di
 ## Notes
 
 This should use a small fixture first, then a real project if the setup path is sane. Capture command, config, failure mode, and any issue that should be promoted into Vize.
+
+2026-10-05 review: Neovim completion and hover coverage landed in vize#3766 (merged 2026-08-03).
 
 ## Links
 

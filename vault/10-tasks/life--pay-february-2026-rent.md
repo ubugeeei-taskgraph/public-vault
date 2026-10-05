@@ -5,7 +5,7 @@ id: task.public.personal-operations.life.pay-february-2026-rent
 title: Pay February 2026 rent
 content: >-
   Clear the February 2026 rent so housing-related obligations return to a stable baseline.
-status: active
+status: done
 visibility: public
 portfolio: personal-operations
 surface: infrastructure
@@ -13,7 +13,7 @@ discipline: operations
 stream: delivery
 urgency: 5
 importance: 5
-progress: 0
+progress: 100
 efforts: 1
 agenty: 1
 owners:
@@ -37,7 +37,7 @@ tags:
   - area/life
   - area/housing
   - visibility/public
-updated: '2026-03-28'
+updated: "2026-10-05"
 ---
 # Pay February 2026 rent
 
@@ -48,6 +48,8 @@ Resolve the overdue rent item so housing administration is no longer carrying an
 ## Notes
 
 This is basic life maintenance and should not remain vague or deferred. Keeping it visible also helps distinguish urgent household obligations from optional purchases.
+
+2026-10-05 review: the February 2026 rent is long past due-date territory and no longer an open obligation; closing as done.
 
 ## Links
 

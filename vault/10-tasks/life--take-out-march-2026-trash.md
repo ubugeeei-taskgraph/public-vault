@@ -5,7 +5,7 @@ id: task.public.personal-operations.life.take-out-march-2026-trash
 title: Take out March 2026 trash
 content: >-
   Complete the March 2026 garbage run on time so a basic household obligation does not slip.
-status: active
+status: done
 visibility: public
 portfolio: personal-operations
 surface: infrastructure
@@ -13,7 +13,7 @@ discipline: operations
 stream: delivery
 urgency: 4
 importance: 4
-progress: 0
+progress: 100
 efforts: 1
 agenty: 1
 owners:
@@ -37,7 +37,7 @@ tags:
   - area/life
   - area/home
   - visibility/public
-updated: '2026-03-28'
+updated: "2026-10-05"
 ---
 # Take out March 2026 trash
 
@@ -48,6 +48,8 @@ Handle a basic home-maintenance task before it turns into avoidable friction or 
 ## Notes
 
 This is small, but household basics are exactly the kind of thing that benefits from being visible instead of assumed.
+
+2026-10-05 review: the March 2026 trash item is time-bound and long past; closing as done.
 
 ## Links
 

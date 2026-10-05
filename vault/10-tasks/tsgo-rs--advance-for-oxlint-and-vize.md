@@ -6,7 +6,7 @@ title: Advance tsgo_rs for oxlint and vize
 content: >-
   Push tsgo_rs forward so oxlint-facing and vize-facing TypeScript tooling can
   share a stronger Rust-backed foundation.
-status: active
+status: done
 visibility: public
 portfolio: personal-oss
 surface: repository
@@ -15,7 +15,7 @@ discipline: engineering
 stream: compatibility
 urgency: 4
 importance: 4
-progress: 0
+progress: 100
 efforts: 5
 agenty: 4
 owners:
@@ -27,8 +27,7 @@ requesters:
 due_date: null
 uncertainty: 4
 blockers: []
-focus:
-  - weekly
+focus: []
 review_week: 2026-W14
 review_month: 2026-04
 parent: '[[10-tasks/vize--ship-oxlint-js-plugin]]'
@@ -40,7 +39,7 @@ tags:
   - area/linting
   - area/typescript
   - area/rust
-updated: '2026-04-02'
+updated: "2026-10-05"
 ---
 # Advance tsgo_rs for oxlint and vize
 
@@ -51,6 +50,8 @@ Push the shared Rust-backed TypeScript layer far enough that oxlint work and viz
 ## Notes
 
 This is a supporting repository task, but it is directly in the path of the current oxlint and vize implementation work. The value is not only in the standalone repo, but in making the surrounding tooling stack easier to evolve.
+
+2026-10-05 review: `tsgo_rs` no longer exists under that name; the work continues as `corsa-bind`, which Vize and corsa-oxlint already use. Tracked from here on by the corsa-bind tasks.
 
 ## Links
 

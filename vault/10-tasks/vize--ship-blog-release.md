@@ -6,7 +6,7 @@ title: Ship the vize blog release
 content: >-
   Publish the vize blog release so the public story around the project matches
   the recent release and stabilization work.
-status: active
+status: done
 visibility: public
 portfolio: personal-oss
 surface: repository
@@ -14,7 +14,7 @@ discipline: docs
 stream: distribution
 urgency: 3
 importance: 3
-progress: 0
+progress: 100
 efforts: 3
 agenty: 3
 owners:
@@ -36,7 +36,7 @@ redaction_reason: null
 tags:
   - repo/ubugeeei-vize
   - stream/distribution
-updated: '2026-03-28'
+updated: "2026-10-05"
 ---
 # Ship the vize blog release
 
@@ -47,6 +47,8 @@ Explain what vize has become, why it matters now, and how people should evaluate
 ## Notes
 
 The release post should turn scattered implementation progress into one coherent public entry point instead of leaving the project legible only to people already following the code.
+
+2026-10-05 review: the vizejs.dev blog shipped with release posts, including the oxlint-plugin-vize alpha announcement on 2026-03-26.
 
 ## Links
 

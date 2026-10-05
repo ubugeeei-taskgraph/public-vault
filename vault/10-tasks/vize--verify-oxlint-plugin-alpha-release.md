@@ -6,7 +6,7 @@ title: Verify the oxlint-plugin-vize alpha release
 content: >-
   Confirm that the oxlint-plugin-vize alpha release behaves correctly across
   representative projects, packaging paths, and release checks.
-status: active
+status: done
 visibility: public
 portfolio: personal-oss
 surface: repository
@@ -14,7 +14,7 @@ discipline: engineering
 stream: stabilization
 urgency: 4
 importance: 4
-progress: 0
+progress: 100
 efforts: 3
 agenty: 4
 owners:
@@ -36,7 +36,7 @@ redaction_reason: null
 tags:
   - repo/ubugeeei-vize
   - stream/stabilization
-updated: '2026-03-28'
+updated: "2026-10-05"
 ---
 # Verify the oxlint-plugin-vize alpha release
 
@@ -47,6 +47,8 @@ Gain confidence that the alpha is solid enough to hand to early adopters without
 ## Notes
 
 This is the practical release gate for the broader plugin-shipping task because it turns intent into a concrete check across real project conditions.
+
+2026-10-05 review: the alpha is long behind; `oxlint-plugin-vize` ships with every Vize release (0.432.0 on 2026-10-04).
 
 ## Links
 

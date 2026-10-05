@@ -6,7 +6,7 @@ title: Upgrade macOS on the personal workstation
 content: >-
   Prepare for and execute a macOS upgrade without breaking the development
   environment.
-status: active
+status: done
 visibility: public
 portfolio: personal-operations
 surface: infrastructure
@@ -14,7 +14,7 @@ discipline: operations
 stream: stabilization
 urgency: 3
 importance: 4
-progress: 0
+progress: 100
 efforts: 3
 agenty: 2
 owners:
@@ -25,10 +25,8 @@ requesters:
   - self
 due_date: null
 uncertainty: 3
-blockers:
-  - '[[10-tasks/workstation--migrate-to-nix]]'
-focus:
-  - monthly
+blockers: []
+focus: []
 review_week: 2026-W12
 review_month: 2026-03
 parent: '[[10-tasks/workstation--advance]]'
@@ -39,7 +37,7 @@ public_bridge_id: null
 tags:
   - area/workstation
   - platform/macos
-updated: '2026-03-21'
+updated: "2026-10-05"
 ---
 # Upgrade macOS on the personal workstation
 
@@ -50,6 +48,8 @@ Complete a macOS update with enough preparation that tools, shell setup, and dev
 ## Notes
 
 This task is intentionally downstream of the Nix migration effort because reproducibility reduces upgrade risk and recovery time.
+
+2026-10-05 review: the workstation is on macOS 26.6.2; the upgrade is done.
 
 ## Links
 
