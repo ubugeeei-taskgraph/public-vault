@@ -52,3 +52,4 @@ The goal here is not only cleanup. It is also to decide what belongs in a shared
 
 - [Advance the vuejs-jp website renewal](./vuejs-jp--advance-website-renewal.md)
 - [Modernize the Vue Fes 2019 site](./vuejs-jp--modernize-vue-fes-2019-site.md)
+- [Migrate the past Vue Fes sites](./vuejs-jp--migrate-past-vue-fes-sites.md)

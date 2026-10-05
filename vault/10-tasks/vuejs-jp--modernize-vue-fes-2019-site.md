@@ -52,3 +52,4 @@ This is the modernization lane inside the broader vuejs-jp renewal effort and sh
 
 - [Advance the vuejs-jp website renewal](./vuejs-jp--advance-website-renewal.md)
 - [Move shared Vue Fes 2019 items into vuejs-jp/vuefes.jp](./vuejs-jp--move-shared-vue-fes-2019-items-to-vuefes-jp.md)
+- [Migrate the past Vue Fes sites](./vuejs-jp--migrate-past-vue-fes-sites.md)

@@ -33,12 +33,13 @@ parent: null
 children:
   - '[[10-tasks/vuejs-jp--modernize-vue-fes-2019-site]]'
   - '[[10-tasks/vuejs-jp--move-shared-vue-fes-2019-items-to-vuefes-jp]]'
+  - '[[10-tasks/vuejs-jp--migrate-past-vue-fes-sites]]'
 private_children: 0
 redaction_reason: null
 tags:
   - community/vuejs-jp
   - area/vue-fes-2019
-updated: '2026-03-28'
+updated: '2026-10-05'
 ---
 # Advance the vuejs-jp website renewal
 
@@ -54,4 +55,5 @@ This note is the umbrella for the renewal track so the legacy Vue Fes work does 
 
 - [Modernize the Vue Fes 2019 site](./vuejs-jp--modernize-vue-fes-2019-site.md)
 - [Move shared Vue Fes 2019 items into vuejs-jp/vuefes.jp](./vuejs-jp--move-shared-vue-fes-2019-items-to-vuefes-jp.md)
+- [Migrate the past Vue Fes sites](./vuejs-jp--migrate-past-vue-fes-sites.md)
 - [Public initiative map](../90-index/initiative-map.md)
