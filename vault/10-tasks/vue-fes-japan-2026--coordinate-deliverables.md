@@ -14,7 +14,7 @@ discipline: operations
 stream: delivery
 urgency: 4
 importance: 4
-progress: 28
+progress: 55
 efforts: 8
 agenty: 2
 owners:
@@ -27,9 +27,10 @@ due_date: null
 uncertainty: 4
 blockers: []
 focus:
+  - weekly
   - monthly
-review_week: 2026-W12
-review_month: 2026-03
+review_week: 2026-W41
+review_month: 2026-10
 parent: null
 children:
   - '[[10-tasks/vue-fes-japan-2026--run-fieldwork-and-ui-research]]'
@@ -41,7 +42,7 @@ tags:
   - event/vue-fes-japan-2026
   - visibility/public
   - stream/delivery
-updated: '2026-03-28'
+updated: "2026-10-05"
 ---
 # Coordinate Vue Fes Japan 2026 deliverables
 
@@ -53,8 +54,11 @@ Create a clean public planning node for Vue Fes Japan 2026 and keep outward-faci
 
 The public vault should track event-facing progress, design research, and coordination. Private operational steps live elsewhere and roll up through redacted bridge counts.
 
+August 2026 activity included vuefes-2026 site work, and September set up a private keynote deck repository. October is talk delivery: finish the materials and rehearse.
+
 ## Links
 
 - [Run purikura fieldwork and UI research](./vue-fes-japan-2026--run-fieldwork-and-ui-research.md)
 - [Weekly focus for 2026-W12](../20-focus/weekly/2026-W12.md)
 - [Monthly focus for 2026-03](../20-focus/monthly/2026-03.md)
+- [Monthly focus for 2026-10](../20-focus/monthly/2026-10.md)

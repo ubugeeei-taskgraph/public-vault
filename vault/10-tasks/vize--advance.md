@@ -14,7 +14,7 @@ discipline: engineering
 stream: compatibility
 urgency: 4
 importance: 5
-progress: 86
+progress: 92
 efforts: 8
 agenty: 4
 owners:
@@ -29,8 +29,8 @@ blockers: []
 focus:
   - weekly
   - monthly
-review_week: 2026-W25
-review_month: 2026-06
+review_week: 2026-W41
+review_month: 2026-10
 parent: null
 children:
   - "[[10-tasks/vize--ship-oxlint-js-plugin]]"
@@ -48,7 +48,7 @@ redaction_reason: null
 tags:
   - repo/ubugeeei-vize
   - stream/compatibility
-updated: "2026-06-21"
+updated: "2026-10-05"
 ---
 
 # Advance vize
@@ -66,6 +66,8 @@ The next connective work is to land the open package metadata thread and keep th
 2026-05-18 through 2026-05-23 activity pushed the repo further into production-readiness cleanup: release/security policy work closed, fuzz reproducers were handled, Corsa runtime configuration landed, config toggles were fixed, and native/editor smoke paths became more concrete. The new focus is practical verification: LSP behavior, VSIX packaging, Neovim usage, and a Misskey bug-bash pass.
 
 2026-06-18 through 2026-06-21 activity turned that verification pressure into a large compatibility burn-down. Dozens of vize PRs landed across Canon virtual TypeScript, Nuxt 2 compatibility, Musea static output, formatter convergence, HMR invalidation, Patina migration support, and packaging cleanup. The main open thread is now the draft legacy Vue 2 helper fix in `ubugeeei-prod/vize#2059`; keep the weekly focus on closing that and preserving the new regression coverage.
+
+2026-06-22 through 2026-10-05 activity was the largest stretch yet: roughly 180 PRs in late June, 500 in July, 990 in August, 575 in September, and continued daily releases up to v0.432.0 on 2026-10-04. August chartered the Davinci compiler-infrastructure rearchitecture, September closed it out with Vapor S3 admission, hydrated DOM parity, a JS plugin result cache, and a panic-free contract across canon, patina, and maestro. Late September onward moved to layered L0 through L4 pipeline work. Keep October focus on stabilizing the new layers and keeping release cadence healthy.
 
 ## Links
 
@@ -90,3 +92,7 @@ The next connective work is to land the open package metadata thread and keep th
 - [Lint migration and scoped CSS PR](https://github.com/ubugeeei-prod/vize/pull/2057)
 - [Monthly focus for 2026-05](../20-focus/monthly/2026-05.md)
 - [Monthly focus for 2026-06](../20-focus/monthly/2026-06.md)
+- [Davinci charter PR](https://github.com/ubugeeei-prod/vize/pull/4313)
+- [Davinci hydrated DOM parity PR](https://github.com/ubugeeei-prod/vize/pull/6422)
+- [vize v0.432.0](https://github.com/ubugeeei-prod/vize/releases/tag/v0.432.0)
+- [Monthly focus for 2026-10](../20-focus/monthly/2026-10.md)

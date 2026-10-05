@@ -14,7 +14,7 @@ discipline: engineering
 stream: stabilization
 urgency: 4
 importance: 4
-progress: 76
+progress: 85
 efforts: 5
 agenty: 4
 owners:
@@ -29,8 +29,8 @@ blockers: []
 focus:
   - weekly
   - monthly
-review_week: 2026-W25
-review_month: 2026-06
+review_week: 2026-W41
+review_month: 2026-10
 parent: null
 children:
   - "[[10-tasks/ox-content--improve-performance]]"
@@ -46,7 +46,7 @@ redaction_reason: null
 tags:
   - repo/ubugeeei-ox-content
   - stream/stabilization
-updated: "2026-06-21"
+updated: "2026-10-05"
 ---
 
 # Advance ox-content
@@ -64,6 +64,8 @@ This makes the near-term ox-content story less about adding surface area and mor
 2026-05-22 activity added another readiness layer: parser fixes, MDC checker diagnostics, Rust metadata centralization, protected public exports, package dry-runs, dependency policy gates, benchmark thresholds, and cross-platform NAPI smoke coverage. That makes the slide feature a more plausible next product surface rather than a side quest.
 
 2026-06-19 through 2026-06-21 activity shifted ox-content toward framework render targets and cleaner N-API structure. Framework markdown render utilities landed, N-API logic split into core crates, and docs navigation TypeScript generation was fixed. Keep June focus on turning `#433` into the reusable surface needed by slide and framework workflows.
+
+2026-07 through 2026-10-04 activity made ox-content a full docs toolchain: built-in MDX by default and a set of opt-in docs-site features (containers, math, includes, feeds, sitemap and llms.txt, redirects, drafts) landed in August, v3.2.10 through v3.2.12 shipped native parse and render throughput work in late September, and October started the v3.3 authoring tools line: native Markdown lint, guided project and IDE setup, an interactive TUI reader, glob-specific frontmatter schemas, and Open VSX and Zed distribution. The v3.3.0 release and `oxct` npm bootstrap PRs are still open.
 
 ## Links
 
@@ -88,3 +90,8 @@ This makes the near-term ox-content story less about adding surface area and mor
 - [Docs nav TypeScript PR](https://github.com/ubugeeei-prod/ox-content/pull/436)
 - [Monthly focus for 2026-05](../20-focus/monthly/2026-05.md)
 - [Monthly focus for 2026-06](../20-focus/monthly/2026-06.md)
+- [Built-in MDX issue](https://github.com/ubugeeei-prod/ox-content/issues/651)
+- [v3.3 authoring tools PR](https://github.com/ubugeeei-prod/ox-content/pull/1467)
+- [v3.3.0 release PR](https://github.com/ubugeeei-prod/ox-content/pull/1475)
+- [Editor distribution PR](https://github.com/ubugeeei-prod/ox-content/pull/1477)
+- [Monthly focus for 2026-10](../20-focus/monthly/2026-10.md)

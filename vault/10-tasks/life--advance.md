@@ -29,8 +29,8 @@ blockers: []
 focus:
   - weekly
   - monthly
-review_week: 2026-W21
-review_month: 2026-05
+review_week: 2026-W41
+review_month: 2026-10
 parent: null
 children:
   - "[[10-tasks/life--pay-february-2026-rent]]"
@@ -53,6 +53,9 @@ children:
   - "[[10-tasks/life--make-prescription-sunglasses]]"
   - "[[10-tasks/life--buy-more-houseplants]]"
   - "[[10-tasks/life--buy-long-shield]]"
+  - "[[10-tasks/life--book-dentist-appointment]]"
+  - "[[10-tasks/life--renew-rental-contract]]"
+  - "[[10-tasks/life--create-jazz-playlist]]"
 private_children: 0
 redaction_reason: null
 public_bridge_id: null
@@ -60,7 +63,7 @@ tags:
   - area/life
   - visibility/public
   - stream/delivery
-updated: "2026-05-23"
+updated: "2026-10-05"
 ---
 
 # Life
@@ -74,6 +77,8 @@ Keep everyday obligations and small personal plans visible enough that they can 
 This stream mixes life administration, home maintenance, supply purchases, and a few small enjoyment tasks. The point is not to treat everything as equally urgent, but to make the whole shape of personal life load visible.
 
 Added a small purchase task for the long shield so it does not stay as ambient mental inventory.
+
+October 2026 adds a dentist appointment, the rental contract renewal, and a jazz playlist.
 
 ## Links
 
@@ -97,3 +102,6 @@ Added a small purchase task for the long shield so it does not stay as ambient m
 - [Make prescription sunglasses](./life--make-prescription-sunglasses.md)
 - [Buy more houseplants](./life--buy-more-houseplants.md)
 - [Buy a long shield](./life--buy-long-shield.md)
+- [Book a dentist appointment](./life--book-dentist-appointment.md)
+- [Renew the rental contract](./life--renew-rental-contract.md)
+- [Create a jazz playlist](./life--create-jazz-playlist.md)

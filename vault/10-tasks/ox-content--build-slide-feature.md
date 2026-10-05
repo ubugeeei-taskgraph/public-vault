@@ -15,7 +15,7 @@ discipline: engineering
 stream: delivery
 urgency: 4
 importance: 5
-progress: 30
+progress: 45
 efforts: 8
 agenty: 4
 owners:
@@ -28,10 +28,9 @@ due_date: null
 uncertainty: 4
 blockers: []
 focus:
-  - weekly
   - monthly
-review_week: 2026-W25
-review_month: 2026-06
+review_week: 2026-W41
+review_month: 2026-10
 parent: "[[10-tasks/ox-content--advance]]"
 children: []
 private_children: 1
@@ -40,7 +39,7 @@ public_bridge_id: null
 tags:
   - repo/ubugeeei-ox-content
   - stream/delivery
-updated: 2026-06-21
+updated: "2026-10-05"
 ---
 
 # Build the ox-content slide feature
@@ -55,9 +54,13 @@ This should start with the smallest useful feature: slide document shape, route/
 
 2026-06-19 through 2026-06-21 activity produced the first reusable substrate for this: framework markdown render utilities landed, and `#433` now tracks component render targets. The next concrete slice is to decide which part becomes slide-specific and which stays as the shared framework rendering foundation.
 
+July 2026 activity split slide work into a dedicated framework, `slidx`, with about 180 PRs through August covering N-API and WASM bindings, presenter view, rehearsal timing, PDF export, projector lint, and venue preflight. Decide which slide pieces stay in ox-content and which live in slidx, and dogfood the result against the Vue Fes deck.
+
 ## Links
 
 - [Advance ox-content](./ox-content--advance.md)
 - [Implement the ox-content VitePress migration](./ox-content--implement-vitepress-migration.md)
 - [Framework markdown render issue](https://github.com/ubugeeei-prod/ox-content/issues/433)
 - [Framework markdown render utilities PR](https://github.com/ubugeeei-prod/ox-content/pull/434)
+- [slidx repository](https://github.com/ubugeeei-prod/slidx)
+- [slidx overview issue](https://github.com/ubugeeei-prod/slidx/issues/1)
